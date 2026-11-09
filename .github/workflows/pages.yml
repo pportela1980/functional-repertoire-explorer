@@ -1,15 +1,13 @@
-# Builds the app and publishes it to GitHub Pages on every push to main.
-# Uses the committed src/data/generated/sources.json, so the raw reference pack
-# (reference/, unredacted) does not need to be in the public repository.
-name: Deploy to GitHub Pages
+# Builds the app and publishes it to the gh-pages branch on every push to main.
+# GitHub Pages serves that branch (Settings → Pages → Deploy from a branch → gh-pages).
+# Uses the committed src/data/generated/*.json; the raw reference packs are not in this repository.
+name: Build and publish to gh-pages
 on:
   push:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 concurrency:
   group: pages
   cancel-in-progress: true
@@ -26,15 +24,13 @@ jobs:
       - run: npm run build:pages
         env:
           BASE_PATH: /${{ github.event.repository.name }}/
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publish dist to gh-pages
+        run: |
+          cd dist
+          touch .nojekyll
+          git init -q -b gh-pages
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "Deploy ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" gh-pages

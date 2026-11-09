@@ -20,6 +20,8 @@ npm run dev
 
 The browser opens http://127.0.0.1:5287/ automatically. Port 5287 is fixed (strictPort) so it does not collide with other local Vite sites on 5173; if 5287 is busy, run `npm run dev -- --port 5300`.
 
+Public site: https://pportela1980.github.io/functional-repertoire-explorer/ (built by `.github/workflows/pages.yml` into the `gh-pages` branch on every push to `main`).
+
 Production build and checks:
 
 ```bash

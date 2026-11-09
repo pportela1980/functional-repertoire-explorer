@@ -1,0 +1,7 @@
+{
+ "reportQuotes": 38,
+ "reportVerified": 38,
+ "apiQuotes": 12,
+ "apiVerified": 12,
+ "method": "Report quotes: whitespace-normalised match on the cited 1-based physical PDF page. Listening quotes: substring of the cited excerpt in the v2 corpus."
+}

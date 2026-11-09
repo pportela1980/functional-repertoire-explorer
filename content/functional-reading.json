@@ -1,0 +1,557 @@
+{
+  "schemaVersion": "0.1",
+  "title": "Necoclí through functional repertoire",
+  "functions": [
+    {
+      "id": "mobilisation",
+      "label": "Mobilisation",
+      "definition": "Activating people and resources in response to a demand."
+    },
+    {
+      "id": "knowledge",
+      "label": "Knowledge recombination",
+      "definition": "Bringing different situated and technical knowledge into a collective response."
+    },
+    {
+      "id": "coordination",
+      "label": "Coordination",
+      "definition": "Aligning interdependent actions, commitments and responsibilities."
+    },
+    {
+      "id": "support",
+      "label": "Mutual support",
+      "definition": "Making assistance and shared resources available to participants facing needs or constraints."
+    }
+  ],
+  "documents": [
+    {
+      "id": "codespa",
+      "path": "sources/codespa-necocli-2026.pdf",
+      "title": "Codespa — Necoclí listening report, March–June 2026",
+      "pageConvention": "1-based PDF pages"
+    },
+    {
+      "id": "uniban",
+      "path": "sources/uniban-necocli-2026.pdf",
+      "title": "Unibán — Agroinnova Necoclí listening report, 2026",
+      "pageConvention": "1-based PDF pages, not printed page numbers"
+    }
+  ],
+  "episodes": [
+    {
+      "id": "ep-milk",
+      "title": "Improving milk quality without a price premium",
+      "initiativeIds": [
+        "protots:254"
+      ],
+      "actorRecordIds": [
+        "external-entitities:81"
+      ],
+      "demand": "Improve milk quality and production practices.",
+      "reportedResponse": "The report describes better practices and milk quality, without a higher sale price; no quality standard had been negotiated with the buyer.",
+      "reportedContinuity": "Practical knowledge was taken up. The report identifies missing records, production planning and a sustainable financing mechanism for the promoter.",
+      "functionalReadings": [
+        {
+          "functionId": "knowledge",
+          "interpretation": "Technical knowledge is brought into local production practices. Transfer is described; the extent of two-way recombination is an analytical question.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-milk:e1",
+            "ep-milk:e2"
+          ]
+        },
+        {
+          "functionId": "coordination",
+          "interpretation": "The episode exposes the missing articulation between production improvement, regular supply and buyer agreements.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-milk:e1",
+            "ep-milk:e2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ep-milk:e1",
+          "documentId": "codespa",
+          "pdfPage": 9,
+          "quote": "Mejoró la calidad de la leche.",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        },
+        {
+          "id": "ep-milk:e2",
+          "documentId": "codespa",
+          "pdfPage": 9,
+          "quote": "La mejora en calidad de la leche no se reflejó en aumento del precio de venta: no existe un estándar negociado con el comprador",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        }
+      ],
+      "occurrenceDate": null,
+      "reportingPeriod": "2026 listening reports; event dates vary or are unspecified",
+      "participantLevel": "organizations and roles; no invented individual identities",
+      "sourceStatus": "reported_episode",
+      "curationStatus": "initial interpretive reading, editable",
+      "actorLinkMeaning": "initiative-level source association; exact episode attendance is not asserted"
+    },
+    {
+      "id": "ep-fund",
+      "title": "Using a revolving fund for inputs and transport",
+      "initiativeIds": [
+        "protots:255"
+      ],
+      "actorRecordIds": [
+        "external-entitities:78",
+        "external-entitities:79",
+        "external-entitities:80"
+      ],
+      "demand": "Access productive finance beyond conventional credit barriers.",
+      "reportedResponse": "The report describes continued financing of inputs. ASITAPUR also acquired a cargo vehicle through the revolving fund.",
+      "reportedContinuity": "The fund is reused. Repayment timing, selection criteria and standardized records remain issues reported by participants.",
+      "functionalReadings": [
+        {
+          "functionId": "mobilisation",
+          "interpretation": "Associations mobilize shared financial resources for productive needs.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-fund:e1",
+            "ep-fund:e2"
+          ]
+        },
+        {
+          "functionId": "coordination",
+          "interpretation": "Loan allocation, repayment and reinvestment require aligned commitments.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-fund:e1",
+            "ep-fund:e2"
+          ]
+        },
+        {
+          "functionId": "support",
+          "interpretation": "Collectively administered access to resources is read through mutual support; this is not evidence of every interpersonal support tie.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-fund:e1",
+            "ep-fund:e2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ep-fund:e1",
+          "documentId": "codespa",
+          "pdfPage": 12,
+          "quote": "ASITAPUR adquirió un motocarguero para el transporte de productos con recursos del fondo rotatorio, lo que muestra cómo el mecanismo trasciende los insumos y empieza a responder a necesidades de logística e infraestructura productiva.",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        },
+        {
+          "id": "ep-fund:e2",
+          "documentId": "codespa",
+          "pdfPage": 12,
+          "quote": "Los tiempos y plazos no están alineados con el ciclo de cosecha de los productores(as), dificultando los pagos",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        }
+      ],
+      "occurrenceDate": null,
+      "reportingPeriod": "2026 listening reports; event dates vary or are unspecified",
+      "participantLevel": "organizations and roles; no invented individual identities",
+      "sourceStatus": "reported_episode",
+      "curationStatus": "initial interpretive reading, editable",
+      "actorLinkMeaning": "initiative-level source association; exact episode attendance is not asserted"
+    },
+    {
+      "id": "ep-purchases",
+      "title": "Aggregating demand for agricultural inputs",
+      "initiativeIds": [
+        "protots:253"
+      ],
+      "actorRecordIds": [
+        "external-entitities:78",
+        "external-entitities:79",
+        "external-entitities:80"
+      ],
+      "demand": "Reduce input costs and improve access to reliable supplies.",
+      "reportedResponse": "The report describes lower purchasing costs and improved access to input quality, alongside gaps in quantity planning and technical information.",
+      "reportedContinuity": "Participants propose permanent purchasing alliances, distribution logistics and connections to processing and commercialization.",
+      "functionalReadings": [
+        {
+          "functionId": "mobilisation",
+          "interpretation": "Producers bring needs and resources into a shared purchase.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-purchases:e1",
+            "ep-purchases:e2"
+          ]
+        },
+        {
+          "functionId": "coordination",
+          "interpretation": "Demand aggregation, negotiation and distribution connect participants in interdependent tasks.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-purchases:e1",
+            "ep-purchases:e2"
+          ]
+        },
+        {
+          "functionId": "knowledge",
+          "interpretation": "Missing soil studies and crop-specific information reveal a knowledge-integration demand.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-purchases:e1",
+            "ep-purchases:e2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ep-purchases:e1",
+          "documentId": "codespa",
+          "pdfPage": 13,
+          "quote": "El Prototipo permitió articular a los y las productoras para identificar necesidades comunes, consolidar compras, negociar mejores precios, distribuir insumos entre asociados y generar economías de escala.",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        },
+        {
+          "id": "ep-purchases:e2",
+          "documentId": "codespa",
+          "pdfPage": 14,
+          "quote": "La planificación de compras no es óptima: falta considerar los productos requeridos y las cantidades según el tamaño del cultivo",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        }
+      ],
+      "occurrenceDate": null,
+      "reportingPeriod": "2026 listening reports; event dates vary or are unspecified",
+      "participantLevel": "organizations and roles; no invented individual identities",
+      "sourceStatus": "reported_episode",
+      "curationStatus": "initial interpretive reading, editable",
+      "actorLinkMeaning": "initiative-level source association; exact episode attendance is not asserted"
+    },
+    {
+      "id": "ep-routes",
+      "title": "Assembling community tourism routes",
+      "initiativeIds": [
+        "protots:251"
+      ],
+      "actorRecordIds": [
+        "external-entitities:75",
+        "external-entitities:76",
+        "external-entitities:77"
+      ],
+      "demand": "Turn dispersed experiences into an organized tourism offer.",
+      "reportedResponse": "Routes bring together experiences, and the report describes narratives and costing tools developed for a minimum viable offer.",
+      "reportedContinuity": "Marketing, commercial portfolios, infrastructure and institutional articulation remain unfinished aspects.",
+      "functionalReadings": [
+        {
+          "functionId": "mobilisation",
+          "interpretation": "Local experience providers are brought around a shared offer.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-routes:e1",
+            "ep-routes:e2"
+          ]
+        },
+        {
+          "functionId": "knowledge",
+          "interpretation": "Nature, culture, gastronomy and local history are combined in route design.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-routes:e1",
+            "ep-routes:e2"
+          ]
+        },
+        {
+          "functionId": "coordination",
+          "interpretation": "An integrated route requires aligned services and costs; this reading connects initiative design and reported work.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-routes:e1",
+            "ep-routes:e2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ep-routes:e1",
+          "documentId": "codespa",
+          "pdfPage": 15,
+          "quote": "La existencia de atractivos dispersos y experiencias comunitarias aisladas que no lograban consolidarse como una oferta turística organizada y comercializable.",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        },
+        {
+          "id": "ep-routes:e2",
+          "documentId": "codespa",
+          "pdfPage": 15,
+          "quote": "Se diseñaron narrativas y herramientas prácticas para definir la estructura de costos y lograr un Producto Mínimo Viable Funcional (PMVF).",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        }
+      ],
+      "occurrenceDate": null,
+      "reportingPeriod": "2026 listening reports; event dates vary or are unspecified",
+      "participantLevel": "organizations and roles; no invented individual identities",
+      "sourceStatus": "reported_episode",
+      "curationStatus": "initial interpretive reading, editable",
+      "actorLinkMeaning": "initiative-level source association; exact episode attendance is not asserted"
+    },
+    {
+      "id": "ep-vitrina",
+      "title": "Maintaining a shared digital tourism presence",
+      "initiativeIds": [
+        "protots:250",
+        "protots:260",
+        "protots:251"
+      ],
+      "actorRecordIds": [
+        "external-entitities:82",
+        "external-entitities:75",
+        "external-entitities:76",
+        "external-entitities:77"
+      ],
+      "demand": "Connect dispersed tourism information and local offers to visitors.",
+      "reportedResponse": "The report describes a valued digital directory and information platform; it also identifies no dedicated content team and missing booking/payment systems.",
+      "reportedContinuity": "Participants propose content partnerships and a wider promotion ecosystem. These proposals are not completed actions.",
+      "functionalReadings": [
+        {
+          "functionId": "knowledge",
+          "interpretation": "Collecting local stories and service information creates a shared representation of the territory.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-vitrina:e1",
+            "ep-vitrina:e2"
+          ]
+        },
+        {
+          "functionId": "coordination",
+          "interpretation": "Maintaining content, promotion and commercial channels requires recurrent coordination across providers.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-vitrina:e1",
+            "ep-vitrina:e2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ep-vitrina:e1",
+          "documentId": "codespa",
+          "pdfPage": 18,
+          "quote": "La dispersión de la información turística y la baja visibilidad digital de la oferta local, dificultando que visitantes encontraran servicios, experiencias y atractivos del territorio.",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        },
+        {
+          "id": "ep-vitrina:e2",
+          "documentId": "codespa",
+          "pdfPage": 18,
+          "quote": "Ausencia de un equipo dedicado exclusivamente a la creación de contenidos",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        }
+      ],
+      "occurrenceDate": null,
+      "reportingPeriod": "2026 listening reports; event dates vary or are unspecified",
+      "participantLevel": "organizations and roles; no invented individual identities",
+      "sourceStatus": "reported_episode",
+      "curationStatus": "initial interpretive reading, editable",
+      "actorLinkMeaning": "initiative-level source association; exact episode attendance is not asserted"
+    },
+    {
+      "id": "ep-sabores",
+      "title": "Connecting local food, identity and tourism",
+      "initiativeIds": [
+        "protots:252"
+      ],
+      "actorRecordIds": [
+        "external-entitities:85",
+        "external-entitities:86"
+      ],
+      "demand": "Make local food products visible and connect producers, processors and tourism experiences.",
+      "reportedResponse": "The report recognizes accumulated gastronomic knowledge and community food-service experience, while describing transport, equipment and commercial organization gaps.",
+      "reportedContinuity": "Integration with routes, festivals and promotion channels is proposed. The source does not establish that every proposed connection is already operating.",
+      "functionalReadings": [
+        {
+          "functionId": "knowledge",
+          "interpretation": "Food traditions, product knowledge and cultural storytelling are potential complementary contributions.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-sabores:e1",
+            "ep-sabores:e2"
+          ]
+        },
+        {
+          "functionId": "coordination",
+          "interpretation": "The demand spans producers, processors, transport and tourism channels; a complete configuration is not documented.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-sabores:e1",
+            "ep-sabores:e2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ep-sabores:e1",
+          "documentId": "codespa",
+          "pdfPage": 17,
+          "quote": "La baja visibilidad y aprovechamiento económico de la gastronomía local como activo turístico y cultural, así como la desconexión entre productores(as), transformadores y experiencias turísticas",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        },
+        {
+          "id": "ep-sabores:e2",
+          "documentId": "codespa",
+          "pdfPage": 17,
+          "quote": "Experiencia acumulada en prestación de servicios alimentarios comunitarios",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        }
+      ],
+      "occurrenceDate": null,
+      "reportingPeriod": "2026 listening reports; event dates vary or are unspecified",
+      "participantLevel": "organizations and roles; no invented individual identities",
+      "sourceStatus": "reported_episode",
+      "curationStatus": "initial interpretive reading, editable",
+      "actorLinkMeaning": "initiative-level source association; exact episode attendance is not asserted"
+    },
+    {
+      "id": "ep-buyers",
+      "title": "Learning from an underprepared buyer meeting",
+      "initiativeIds": [
+        "protots:267"
+      ],
+      "actorRecordIds": [],
+      "demand": "Present a credible supply offer to prospective buyers.",
+      "reportedResponse": "The report recounts an earlier business meeting where potential suppliers arrived without samples or commercial portfolios.",
+      "reportedContinuity": "Participants propose preparation around buyer requirements, samples, offer definition and follow-up.",
+      "functionalReadings": [
+        {
+          "functionId": "mobilisation",
+          "interpretation": "A meeting brings parties into contact; it is one component of the response.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-buyers:e1"
+          ]
+        },
+        {
+          "functionId": "knowledge",
+          "interpretation": "Buyer requirements and supplier capabilities need to be brought together before the meeting.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-buyers:e1"
+          ]
+        },
+        {
+          "functionId": "coordination",
+          "interpretation": "Samples, portfolios, commitments and follow-up require organization across participants.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-buyers:e1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ep-buyers:e1",
+          "documentId": "uniban",
+          "pdfPage": 42,
+          "quote": "en la rueda de diciembre los posibles proveedores no llevaron muestras ni portafolios",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        }
+      ],
+      "occurrenceDate": null,
+      "reportingPeriod": "2026 listening reports; event dates vary or are unspecified",
+      "participantLevel": "organizations and roles; no invented individual identities",
+      "sourceStatus": "reported_episode",
+      "curationStatus": "initial interpretive reading, editable",
+      "actorLinkMeaning": "initiative-level source association; exact episode attendance is not asserted"
+    },
+    {
+      "id": "ep-mesa",
+      "title": "Coordinating a territorial agroenterprise agenda",
+      "initiativeIds": [
+        "protots:267"
+      ],
+      "actorRecordIds": [
+        "external-entitities:51",
+        "external-entitities:62",
+        "external-entitities:70",
+        "external-entitities:78",
+        "external-entitities:80",
+        "external-entitities:83"
+      ],
+      "demand": "Connect institutions and producer organizations around shared commercial and productive challenges.",
+      "reportedResponse": "The report describes deliberation about the Mesa purpose, working agendas and concrete commercial, technical and organizational gaps.",
+      "reportedContinuity": "Meeting schedules and continuous task follow-up were proposed. Source associations identify participants at programme level, not attendance at every meeting.",
+      "functionalReadings": [
+        {
+          "functionId": "mobilisation",
+          "interpretation": "The Mesa convenes actors from different sectors.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-mesa:e1",
+            "ep-mesa:e2"
+          ]
+        },
+        {
+          "functionId": "knowledge",
+          "interpretation": "Commercial, technical and territorial perspectives meet in a common forum.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-mesa:e1",
+            "ep-mesa:e2"
+          ]
+        },
+        {
+          "functionId": "coordination",
+          "interpretation": "Participants work on shared priorities and arrangements for following up commitments.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "ep-mesa:e1",
+            "ep-mesa:e2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ep-mesa:e1",
+          "documentId": "uniban",
+          "pdfPage": 41,
+          "quote": "El diálogo en la dimensión de gobernanza permitió construir una visión compartida sobre el propósito y la estructura óptima de la Mesa.",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        },
+        {
+          "id": "ep-mesa:e2",
+          "documentId": "uniban",
+          "pdfPage": 42,
+          "quote": "con seguimiento continuo a tareas y compromisos.",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        }
+      ],
+      "occurrenceDate": null,
+      "reportingPeriod": "2026 listening reports; event dates vary or are unspecified",
+      "participantLevel": "organizations and roles; no invented individual identities",
+      "sourceStatus": "reported_episode",
+      "curationStatus": "initial interpretive reading, editable",
+      "actorLinkMeaning": "initiative-level source association; exact episode attendance is not asserted"
+    }
+  ],
+  "designPrinciple": "Activities reveal situated functional configurations. Portfolio reading compares and connects these configurations; it does not assign a single capacity score to a group.",
+  "syntheticPeople": [],
+  "capacityScores": null,
+  "territory": {
+    "name": "Necoclí",
+    "country": "Colombia",
+    "sourceZoneId": 37,
+    "coordinates": null,
+    "instruction": "Resolve map center from a geographical source. Do not fabricate project point coordinates; distinguish territory-level association from verified site locations."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "urdaibai",
+  "name": "Busturialdea–Urdaibai",
+  "department": "Bizkaia",
+  "subregion": "Basque Country",
+  "country": "Spain",
+  "center": { "lat": 43.3415, "lon": -2.676 },
+  "zoom": 10,
+  "centerSourceUrl": "https://www.unesco.org/en/mab/urdaibai?hub=66369",
+  "centerPrecision": "Territory reference point for the Urdaibai Biosphere Reserve as given in the UNESCO record supplied with the pack. It is not the boundary of the study area, and the reserve boundary is not assumed to equal the comarca.",
+  "projectLocationNote": "K-tool projects carry council labels, not verified coordinates. Initiatives are shown at territory level; 79 project records are attributed to the whole comarca rather than a single council.",
+  "programme": {
+    "name": "ALC / AC4 listening process and the Urdaibai K-tool",
+    "promoter": "Agirre Lehendakaria Center (ALC) with AC4 – Columbia Climate School",
+    "sourceNote": "Project and agent records come from the public K-tool platform (urdaibai.agirrecenter.eus) as recovered on 9 Nov 2026; listening excerpts come from the API-derived v2 corpus kept in the earlier Urdaibai demonstrator. The two snapshots were assembled at different times and are not reconciled with each other.",
+    "platformUrl": "https://urdaibai.agirrecenter.eus/"
+  },
+  "featuredInitiativeIds": ["urdaibai:projects:543", "urdaibai:context:gaztelugatxe-tradition", "urdaibai:context:alc-listening-process", "urdaibai:projects:158", "urdaibai:projects:513"],
+  "comparisonNote": "Same functional lens as Necoclí; different sources and sampling. Compare documented configurations, not territorial capacity rankings.",
+  "reportContext": [],
+  "story": [
+    {
+      "id": "place",
+      "title": "The place",
+      "text": "Busturialdea–Urdaibai is a comarca of Bizkaia, in the Basque Country, around the Urdaibai estuary — a UNESCO Biosphere Reserve. Gernika-Lumo and Bermeo are its main towns; most municipalities are small. The people interviewed describe scarce housing, tourism pressure and young people working or living elsewhere.",
+      "refs": [
+        { "documentId": "urdaibai:document:alc-final", "pdfPage": 16, "quote": "La vivienda aparece en las narrativas como una preocupación transversal" },
+        { "documentId": "urdaibai:document:alc-final", "pdfPage": 39, "quote": "personas preocupadas por el deterioro económico de la zona, la falta de industria, la escasez de vivienda" }
+      ]
+    },
+    {
+      "id": "challenge",
+      "title": "The complex challenge",
+      "text": "In 2024–2025 a proposed extension of the Guggenheim Bilbao museum into the reserve divided the comarca. The listening process found that the disagreement worked as a proxy for a deeper question: what kind of development the territory wants, and who decides. The Basque institutions later decided not to continue with the extension; the underlying question remains.",
+      "refs": [
+        { "documentId": "urdaibai:document:alc-final", "pdfPage": 44, "quote": "se convierte en un “proxy” o sustituto del debate más profundo sobre el modelo socioeconómico y la transformación de la comarca" },
+        { "documentId": "urdaibai:document:alc-final", "pdfPage": 2, "quote": "Una vez tomada la decisión de no continuar con el proyecto de ampliación del museo en Urdaibai por parte de las instituciones vascas" }
+      ]
+    },
+    {
+      "id": "response",
+      "title": "The listening response",
+      "text": "From February 2025 the Agirre Lehendakaria Center (ALC), with AC4 – Columbia, ran a ten-month listening process: 1,002 narratives from 949 people, contrasted in seven collective-interpretation sessions, alongside a mapping of agents, initiatives and strategic plans in the K-tool platform. The process was not binding, but the report describes real effects on the debate.",
+      "refs": [
+        { "documentId": "urdaibai:document:alc-final", "pdfPage": 2, "quote": "se han recogido 1002 narrativas individuales que se han contrastado mediante siete sesiones de interpretación colectiva" },
+        { "documentId": "urdaibai:document:alc-final", "pdfPage": 62, "quote": "se han detectado 265 agentes, 208 iniciativas y 15 planes estratégicos" },
+        { "documentId": "urdaibai:document:alc-final", "pdfPage": 45, "quote": "sin ser formalmente vinculante, ha tenido efectos materiales y políticos reales" }
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question of this demo",
+      "text": "Which collective functions do groups in Urdaibai exercise — around maritime heritage, celebrations, housing, the museum debate, public infrastructure and the listening process itself? The same four functions as Necoclí are used. Sources and sampling differ, so the two cases are read side by side, not ranked.",
+      "refs": [
+        { "documentId": "urdaibai:document:alc-final", "pdfPage": 44, "quote": "coinciden en que el territorio necesita actuar, moverse y tomar decisiones estratégicas" }
+      ]
+    }
+  ],
+  "milestones": [
+    { "date": "2025-02-28", "label": "Listening process starts (end of February 2025)", "ref": { "documentId": "urdaibai:document:alc-final", "pdfPage": 62, "quote": "A finales de febrero de 2025 se puso en marcha el proceso participativo de Busturialdea-Urdaibai" } },
+    { "date": "2025-07-15", "label": "Preliminary report published (July 2025)", "ref": { "documentId": "urdaibai:document:alc-final", "pdfPage": 2, "quote": "complementa el informe previo publicado en el mes de julio de 2025" } }
+  ]
+}

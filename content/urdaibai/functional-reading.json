@@ -1,0 +1,796 @@
+{
+  "schemaVersion": "0.1",
+  "territoryId": "urdaibai",
+  "title": "Urdaibai through functional repertoire",
+  "functions": [
+    {
+      "id": "mobilisation",
+      "label": "Mobilisation",
+      "definition": "Activating people and resources in response to a demand."
+    },
+    {
+      "id": "knowledge",
+      "label": "Knowledge recombination",
+      "definition": "Bringing different situated and technical knowledge into a collective response."
+    },
+    {
+      "id": "coordination",
+      "label": "Coordination",
+      "definition": "Aligning interdependent actions, commitments and responsibilities."
+    },
+    {
+      "id": "support",
+      "label": "Mutual support",
+      "definition": "Making assistance and shared resources available to participants facing needs or constraints."
+    }
+  ],
+  "documents": [
+    {
+      "id": "urdaibai:document:alc-final",
+      "title": "ALC / AC4 — Busturialdea–Urdaibai final listening report",
+      "kind": "report",
+      "path": "sources/alc-urdaibai-final-es.pdf",
+      "url": "https://urdaibai.agirrecenter.eus/",
+      "pageConvention": "1-based PDF pages. Printed pages are separately recorded."
+    },
+    {
+      "id": "urdaibai:document:iv-0021",
+      "title": "Supplied interview document 0021",
+      "kind": "supplied_interview",
+      "sourceRecordId": "urdaibai:interview:0021",
+      "availability": "Curated original excerpts only"
+    },
+    {
+      "id": "urdaibai:document:iv-0108",
+      "title": "Supplied interview document 0108",
+      "kind": "supplied_interview",
+      "sourceRecordId": "urdaibai:interview:0108",
+      "availability": "Curated original excerpts only"
+    },
+    {
+      "id": "urdaibai:document:ktool-listening",
+      "title": "K-tool — API-derived listening corpus, v2",
+      "kind": "api_derived_corpus",
+      "path": "sources/ktool-listening-v2-selected-excerpts.json",
+      "url": "https://urdaibai-listening-systems-map.pmp1980.chatgpt.site/"
+    },
+    {
+      "id": "urdaibai:document:ktool-public",
+      "title": "K-tool — public project listing",
+      "kind": "public_project_snapshot",
+      "path": "sources/ktool-public-projects-20261109.json",
+      "url": "https://urdaibai.agirrecenter.eus/platform/1"
+    },
+    {
+      "id": "urdaibai:document:ortube-agreement",
+      "title": "Bermeo Town Council — Ortube restoration agreement",
+      "kind": "official_public_document",
+      "url": "https://www.bermeo.eus/187.html?L=2&cHash=daf024e746416d086490474bbab010fc&no_cache=1&tx_ttnews%5Btt_news%5D=19306",
+      "publishedAt": "2023-03-27"
+    },
+    {
+      "id": "urdaibai:document:ortube-school",
+      "title": "Bermeo Town Council — Nautical school restoration work",
+      "kind": "official_public_document",
+      "url": "https://www.bermeo.eus/187.html?L=2&cHash=0712f695022e04ce137c0f4cbc746092&no_cache=1&tx_ttnews%5Btt_news%5D=21639",
+      "publishedAt": "2025-11-05"
+    },
+    {
+      "id": "urdaibai:document:ankur-registry",
+      "title": "Basque Government — Ankurkulu cooperative registry",
+      "kind": "official_public_document",
+      "url": "https://www.euskadi.eus/gobierno-vasco/-/entidad/ankurkulu-koop-elk/"
+    },
+    {
+      "id": "urdaibai:document:ankur-reas",
+      "title": "REAS Euskadi — Cooperative housing event and first-hand account",
+      "kind": "participant_organization_publication",
+      "url": "https://reaseuskadi.eus/ess-jornada-bilbao-vivienda-cooperativa/"
+    }
+  ],
+  "episodes": [
+    {
+      "id": "urdaibai:episode:ortube-agreement",
+      "title": "Agreeing how to restore the Ortube",
+      "initiativeIds": [
+        "urdaibai:projects:543"
+      ],
+      "actorRecordIds": [
+        "urdaibai:agents:18",
+        "urdaibai:agents:59",
+        "urdaibai:agents:702",
+        "urdaibai:context:itsasmuseum",
+        "urdaibai:context:bizkaikoa"
+      ],
+      "territoryId": "urdaibai",
+      "demand": "Preserve a wooden fishing boat and coordinate the final phase of its restoration.",
+      "reportedResponse": "Bermeo Town Council reports that a collaboration agreement was signed on 27 March 2023. It assigns distinct administrative, financial, technical and practical roles.",
+      "reportedContinuity": "The signed agreement had a stated two-year term. Interview 0021 separately describes long-running volunteer work and uncertainty about future management. Neither source establishes completion or navigability.",
+      "place": "Bermeo",
+      "time": {
+        "date": "2023-03-27",
+        "precision": "day",
+        "basis": "signing_date"
+      },
+      "episodeKind": "bounded_action",
+      "participants": [
+        {
+          "actorRecordId": "urdaibai:agents:18",
+          "role": "Signatory, boat owner and administrative and budget manager",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-agreement:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:agents:59",
+          "role": "Signatory and partial restoration funding",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-agreement:e1",
+            "urdaibai:episode:ortube-agreement:e2"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:agents:702",
+          "role": "Signatory; assigned execution of recovery work",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-agreement:e1",
+            "urdaibai:episode:ortube-agreement:e3"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:context:itsasmuseum",
+          "role": "Signatory; assigned technical direction via Erain",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-agreement:e1",
+            "urdaibai:episode:ortube-agreement:e3"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:context:bizkaikoa",
+          "role": "Its managing director is listed among the signatories",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-agreement:e1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "documentId": "urdaibai:document:ortube-agreement",
+          "sourceType": "public_source_summary",
+          "englishSummary": "The municipal notice names Bermeo Town Council, the Provincial Council, the Ortube association and Itsasmuseum; it also lists the managing director of Bizkaikoa among the signers. It reports the town council owns the boat and will manage the project administratively and financially.",
+          "quote": null,
+          "id": "urdaibai:episode:ortube-agreement:e1"
+        },
+        {
+          "documentId": "urdaibai:document:ortube-agreement",
+          "sourceType": "official_public_excerpt",
+          "quote": "una inversión de 190.000 euros destinados a la financiación de parte de los trabajos",
+          "language": "es",
+          "englishSummary": "The council notice reports €190,000 of provincial support for part of the restoration work; this is not a total project cost or verified disbursement.",
+          "id": "urdaibai:episode:ortube-agreement:e2"
+        },
+        {
+          "documentId": "urdaibai:document:ortube-agreement",
+          "sourceType": "public_source_summary",
+          "englishSummary": "Itsasmuseum is assigned technical direction through Erain and preparation of a restoration and maintenance plan; the association is assigned implementation.",
+          "quote": null,
+          "id": "urdaibai:episode:ortube-agreement:e3"
+        },
+        {
+          "documentId": "urdaibai:document:iv-0021",
+          "sourceType": "interview_excerpt",
+          "quote": "Konbenio bat eginda Udaletxeagaz, Aldundiagaz eta Bilboko Museo Maritimogaz.",
+          "language": "eu",
+          "englishSummary": "The participant describes an agreement involving the town council, the provincial council and the Bilbao Maritime Museum.",
+          "locator": "Answer introducing the Ortube project",
+          "id": "urdaibai:episode:ortube-agreement:e4"
+        }
+      ],
+      "functionalReadings": [
+        {
+          "functionId": "coordination",
+          "interpretation": "The agreement aligns distinct responsibilities around the same restoration undertaking.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-agreement:e1",
+            "urdaibai:episode:ortube-agreement:e3",
+            "urdaibai:episode:ortube-agreement:e4"
+          ]
+        },
+        {
+          "functionId": "mobilisation",
+          "interpretation": "The agreement brings institutional funding and technical resources to an ongoing community undertaking.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-agreement:e1",
+            "urdaibai:episode:ortube-agreement:e2",
+            "urdaibai:episode:ortube-agreement:e3"
+          ]
+        }
+      ],
+      "support": [
+        {
+          "kind": "reported_partial_restoration_funding",
+          "providerRecordId": "urdaibai:agents:59",
+          "amount": 190000,
+          "currency": "EUR",
+          "status": "reported_by_municipality",
+          "asReportedOn": "2023-03-27",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-agreement:e2"
+          ],
+          "meaning": "Reported provincial contribution towards part of the restoration work; not total cost, cash-disbursement verification or new proposal."
+        }
+      ]
+    },
+    {
+      "id": "urdaibai:episode:ortube-school",
+      "title": "Students and volunteers work on the Ortube",
+      "initiativeIds": [
+        "urdaibai:projects:543"
+      ],
+      "actorRecordIds": [
+        "urdaibai:agents:174",
+        "urdaibai:context:ortube-volunteers"
+      ],
+      "territoryId": "urdaibai",
+      "demand": "Continue practical restoration while offering real work for vocational training.",
+      "reportedResponse": "In November 2025 the council reported 15 vocational students taking part in weekly restoration work under teacher and project volunteer supervision.",
+      "reportedContinuity": "The council describes this arrangement as being in its third year. The notice does not identify the individuals or establish the boat’s eventual completion.",
+      "place": "Bermeo",
+      "time": {
+        "date": "2025-11-05",
+        "precision": "day",
+        "basis": "report_date",
+        "label": "Reported 5 Nov 2025; weekly activity"
+      },
+      "episodeKind": "reported_practice",
+      "participants": [
+        {
+          "actorRecordId": "urdaibai:agents:174",
+          "role": "Vocational school: reported student cohort and teaching supervision",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-school:e1",
+            "urdaibai:episode:ortube-school:e2"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:context:ortube-volunteers",
+          "role": "Project volunteers: supervise restoration tasks alongside school staff",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-school:e2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "documentId": "urdaibai:document:ortube-school",
+          "sourceType": "official_public_excerpt",
+          "quote": "15 estudiantes de Formación Profesional Básica participan activamente en la iniciativa",
+          "language": "es",
+          "englishSummary": "Fifteen students are reported as active in the initiative.",
+          "id": "urdaibai:episode:ortube-school:e1"
+        },
+        {
+          "documentId": "urdaibai:document:ortube-school",
+          "sourceType": "public_source_summary",
+          "englishSummary": "The municipality reports one working day per week, with students applying classroom learning under teacher and volunteer supervision; this collaboration is in its third year.",
+          "quote": null,
+          "id": "urdaibai:episode:ortube-school:e2"
+        }
+      ],
+      "functionalReadings": [
+        {
+          "functionId": "coordination",
+          "interpretation": "A recurring schedule and shared supervision connect school learning to restoration work.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-school:e1",
+            "urdaibai:episode:ortube-school:e2"
+          ]
+        },
+        {
+          "functionId": "knowledge",
+          "interpretation": "Classroom knowledge is applied alongside practical supervision in a joint task. This is evidence of practical integration; reciprocal exchange or joint design is not documented.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:ortube-school:e2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urdaibai:episode:gaztelugatxe-tradition",
+      "title": "Sustaining the 30 December gathering",
+      "initiativeIds": [
+        "urdaibai:context:gaztelugatxe-tradition"
+      ],
+      "actorRecordIds": [
+        "urdaibai:context:gaztelugatxe-businesses",
+        "urdaibai:context:gaztelugatxe-volunteers"
+      ],
+      "territoryId": "urdaibai",
+      "demand": "Maintain an annual community gathering at San Juan de Gaztelugatxe.",
+      "reportedResponse": "An interviewee describes small local businesses contributing money to volunteers, who organise food for the public gathering alongside music and dance.",
+      "reportedContinuity": "The source describes a recurring tradition and a perceived change under tourist pressure. It does not identify the businesses or volunteers by name or specify which years this arrangement operated.",
+      "place": "San Juan de Gaztelugatxe",
+      "time": {
+        "date": null,
+        "precision": "recurring_day_month",
+        "month": 12,
+        "day": 30,
+        "label": "30 December; years unspecified"
+      },
+      "episodeKind": "reported_practice",
+      "participants": [
+        {
+          "actorRecordId": "urdaibai:context:gaztelugatxe-businesses",
+          "role": "Unnamed local businesses contribute money",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:gaztelugatxe-tradition:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:context:gaztelugatxe-volunteers",
+          "role": "Unnamed volunteers receive contributions and organise the food",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:gaztelugatxe-tradition:e1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "documentId": "urdaibai:document:iv-0108",
+          "sourceType": "interview_excerpt",
+          "quote": "Herriko enpresa txikiek diru bat ematen diete boluntarioei eta merendola bat egiten da herritarrentzat.",
+          "language": "eu",
+          "englishSummary": "Local small businesses give money to volunteers, and a communal snack is organised for residents.",
+          "locator": "Account of the 30 December gathering",
+          "id": "urdaibai:episode:gaztelugatxe-tradition:e1"
+        },
+        {
+          "documentId": "urdaibai:document:iv-0108",
+          "sourceType": "interview_excerpt",
+          "quote": "Bertara joaten gara, bertan trikitixa jotzen da, dantzak egiten dira, eta modu kolektiboan merendola bat egiten da.",
+          "language": "eu",
+          "englishSummary": "The speaker describes going there, music and dance, and the collective preparation of food.",
+          "locator": "Account of the 30 December gathering",
+          "id": "urdaibai:episode:gaztelugatxe-tradition:e2"
+        }
+      ],
+      "functionalReadings": [
+        {
+          "functionId": "mobilisation",
+          "interpretation": "The gathering activates volunteer labour and local financial contributions.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:gaztelugatxe-tradition:e1",
+            "urdaibai:episode:gaztelugatxe-tradition:e2"
+          ]
+        },
+        {
+          "functionId": "coordination",
+          "interpretation": "The account describes an arrangement linking resource contributors to volunteers who organise a common activity.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:gaztelugatxe-tradition:e1"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "urdaibai:episode:gus-talk",
+      "title": "Public talk convened by Guggenheim Urdaibai Stop",
+      "initiativeIds": [
+        "urdaibai:projects:158"
+      ],
+      "actorRecordIds": [
+        "urdaibai:agents:78"
+      ],
+      "territoryId": "urdaibai",
+      "demand": "Provide information and create a public occasion to compare views on the proposed extension.",
+      "reportedResponse": "A selected listening excerpt reports that the platform held a talk where opinions could be compared and information was shared.",
+      "reportedContinuity": "A separate source reports learning about the issue through the platform. It does not say the speaker attended this talk or establish an outcome of it.",
+      "place": "Busturialdea–Urdaibai (exact venue unspecified)",
+      "time": {
+        "date": null,
+        "precision": "unknown"
+      },
+      "episodeKind": "bounded_action",
+      "participants": [
+        {
+          "actorRecordId": "urdaibai:agents:78",
+          "role": "Platform reported as convening the talk",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:gus-talk:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:context:gus-talk-attendees",
+          "role": "Audience implied by the comparison of views; no participant names or affiliations supplied",
+          "status": "inferred_role_context",
+          "evidenceIds": [
+            "urdaibai:episode:gus-talk:e1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "documentId": "urdaibai:document:ktool-listening",
+          "sourceType": "api_excerpt",
+          "quote": "Hemen egon zen Guggenheim Stop Plataformako hitzaldi bat, eta hor iritziak kontrastatu ahal izan ziren, egon zan ahalegin bat informazinoa emoteko.",
+          "language": "eu",
+          "englishSummary": "The platform held a talk here; people could compare views and there was an effort to provide information.",
+          "sourceRecordId": "urdaibai:informations:370",
+          "id": "urdaibai:episode:gus-talk:e1"
+        },
+        {
+          "documentId": "urdaibai:document:ktool-listening",
+          "sourceType": "api_excerpt",
+          "quote": "La información es nula, porque nosotros nos enteramos por la plataforma [Stop Urdaibai] pero si no, no hay información.",
+          "language": "es",
+          "englishSummary": "A different interviewee describes the platform as their information channel. This is contextual evidence, not evidence of attendance.",
+          "sourceRecordId": "urdaibai:informations:1432",
+          "evidenceRole": "context",
+          "id": "urdaibai:episode:gus-talk:e2"
+        }
+      ],
+      "functionalReadings": [
+        {
+          "functionId": "mobilisation",
+          "interpretation": "The platform convened a public space around a shared issue. The comparison of views is reported, but no synthesis or jointly revised response is documented.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:gus-talk:e1"
+          ]
+        }
+      ],
+      "initiativeLinkBasis": "Analyst contextual linkage: the convening platform is listed in the K-tool opposition campaign; the API does not link this specific talk to the project record."
+    },
+    {
+      "id": "urdaibai:episode:ibarrangelu-sensemaking",
+      "title": "Revising the narrative profiles in Ibarrangelu",
+      "initiativeIds": [
+        "urdaibai:context:alc-listening-process"
+      ],
+      "actorRecordIds": [
+        "urdaibai:agents:35",
+        "urdaibai:agents:61",
+        "urdaibai:agents:78",
+        "urdaibai:agents:112",
+        "urdaibai:context:elika",
+        "urdaibai:agents:201"
+      ],
+      "territoryId": "urdaibai",
+      "demand": "Check whether the initial narrative profiles cover the range of territorial perspectives.",
+      "reportedResponse": "The report records a session with 11 participants. Four profiles were discussed; the group identified the need for an additional profile, 002.",
+      "reportedContinuity": "A later Murueta session reviewed five profiles. The report documents an analytical revision, not an implementation commitment.",
+      "place": "Ibarrangelu",
+      "time": {
+        "date": "2025-06-11",
+        "precision": "day",
+        "basis": "session_date"
+      },
+      "episodeKind": "bounded_action",
+      "participants": [
+        {
+          "actorRecordId": "urdaibai:agents:35",
+          "role": "Mayor attended as reported",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ibarrangelu-sensemaking:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:agents:61",
+          "role": "Government representatives attended",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ibarrangelu-sensemaking:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:agents:78",
+          "role": "Platform representatives attended",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ibarrangelu-sensemaking:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:agents:112",
+          "role": "Named participating organization",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ibarrangelu-sensemaking:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:context:elika",
+          "role": "Named participating entity",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ibarrangelu-sensemaking:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:agents:201",
+          "role": "University listed among participants",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ibarrangelu-sensemaking:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:context:alc",
+          "role": "Reported organiser of the wider sensemaking process; no individual attendee inferred",
+          "status": "organiser_context",
+          "evidenceIds": [
+            "urdaibai:episode:ibarrangelu-sensemaking:e1",
+            "urdaibai:episode:ibarrangelu-sensemaking:e2"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "documentId": "urdaibai:document:alc-final",
+          "sourceType": "report_excerpt",
+          "quote": "Participaron el alcalde del Ayuntamiento y representantes del Gobierno Vasco, la plataforma Guggenheim Urdaibai Stop (GUS), Gernika Gogoratuz, la entidad Elika y la UPV",
+          "language": "es",
+          "englishSummary": "The report names the mayor and the participating institutions and groups; other individual roles are also listed in the source.",
+          "pdfPage": 66,
+          "printedPage": 131,
+          "id": "urdaibai:episode:ibarrangelu-sensemaking:e1"
+        },
+        {
+          "documentId": "urdaibai:document:alc-final",
+          "sourceType": "report_excerpt",
+          "quote": "entre los participantes salió a la luz la necesidad de crear el perfil 002.",
+          "language": "es",
+          "englishSummary": "Participants identified the need for profile 002.",
+          "pdfPage": 66,
+          "printedPage": 131,
+          "id": "urdaibai:episode:ibarrangelu-sensemaking:e2"
+        }
+      ],
+      "functionalReadings": [
+        {
+          "functionId": "knowledge",
+          "interpretation": "Participants from different settings tested the original analytical categories and produced a documented revision.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:ibarrangelu-sensemaking:e1",
+            "urdaibai:episode:ibarrangelu-sensemaking:e2"
+          ]
+        },
+        {
+          "functionId": "mobilisation",
+          "interpretation": "The session brought several kinds of territorial actors into a common review, including actors with distinct institutional and civic roles.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:ibarrangelu-sensemaking:e1"
+          ]
+        }
+      ],
+      "reportedParticipantCount": 11,
+      "displayNote": "Named graph nodes represent organisations or roles, not a complete count of attendees."
+    },
+    {
+      "id": "urdaibai:episode:bermeo-sensemaking",
+      "title": "Contrasting five profiles in Bermeo",
+      "initiativeIds": [
+        "urdaibai:context:alc-listening-process"
+      ],
+      "actorRecordIds": [
+        "urdaibai:agents:61",
+        "urdaibai:agents:18",
+        "urdaibai:agents:78",
+        "urdaibai:context:unesco-etxea",
+        "urdaibai:context:lab"
+      ],
+      "territoryId": "urdaibai",
+      "demand": "Test the revised listening profiles in a further local sensemaking session.",
+      "reportedResponse": "The final report records a 14-participant session at the Casa de Cultura in Bermeo. It says that five profiles were contrasted.",
+      "reportedContinuity": "This was part of a sequence of sessions; the report passage does not attribute a new profile or action commitment to this session.",
+      "place": "Bermeo",
+      "time": {
+        "date": "2025-06-25",
+        "precision": "day",
+        "basis": "session_date"
+      },
+      "episodeKind": "bounded_action",
+      "participants": [
+        {
+          "actorRecordId": "urdaibai:agents:61",
+          "role": "First Vice-Lehendakari attended",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:bermeo-sensemaking:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:agents:18",
+          "role": "Mayor attended",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:bermeo-sensemaking:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:agents:78",
+          "role": "Platform representative attended",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:bermeo-sensemaking:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:context:unesco-etxea",
+          "role": "Representative attended",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:bermeo-sensemaking:e1"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:context:lab",
+          "role": "Trade-union member attended",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:bermeo-sensemaking:e1"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "documentId": "urdaibai:document:alc-final",
+          "sourceType": "report_excerpt",
+          "quote": "Esta sesión contó con la participación de la primera Vicelehendakari del Gobierno Vasco.",
+          "language": "es",
+          "englishSummary": "The report notes the participation of the first Vice-Lehendakari; the same paragraph names the mayor and representatives or members of GUS, UNESCO Etxea and LAB.",
+          "pdfPage": 67,
+          "printedPage": 133,
+          "id": "urdaibai:episode:bermeo-sensemaking:e1"
+        },
+        {
+          "documentId": "urdaibai:document:alc-final",
+          "sourceType": "report_excerpt",
+          "quote": "se contrastaron cinco perfiles.",
+          "language": "es",
+          "englishSummary": "Five profiles were contrasted at the session.",
+          "pdfPage": 67,
+          "printedPage": 133,
+          "id": "urdaibai:episode:bermeo-sensemaking:e2"
+        }
+      ],
+      "functionalReadings": [
+        {
+          "functionId": "mobilisation",
+          "interpretation": "The gathering activated a different mix of public and civic actors around the same listening work.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:bermeo-sensemaking:e1"
+          ]
+        }
+      ],
+      "reportedParticipantCount": 14,
+      "interpretiveBoundary": "The source reports that five profiles were discussed; there is no documented analytical revision to code as knowledge recombination."
+    },
+    {
+      "id": "urdaibai:episode:ankurkulu-use",
+      "title": "Pooling housing access through Ankurkulu",
+      "initiativeIds": [
+        "urdaibai:projects:513"
+      ],
+      "actorRecordIds": [
+        "urdaibai:agents:70",
+        "urdaibai:context:ankurkulu-members"
+      ],
+      "territoryId": "urdaibai",
+      "demand": "Make dwelling use available to cooperative members through a collective tenure arrangement.",
+      "reportedResponse": "K-tool describes collective ownership and non-profit use rights. The Basque register confirms the cooperative’s purpose; REAS reports that Ankurkulu participants presented their experience of an inhabited cooperative in Mendata.",
+      "reportedContinuity": "The sources support an enacted collective tenure arrangement. They do not establish individual affordability gains, cash flows or informal care exchanges.",
+      "place": "Mendata",
+      "time": {
+        "date": null,
+        "precision": "period_not_specified",
+        "label": "Reported inhabited; start date not specified in the evidence used"
+      },
+      "episodeKind": "reported_practice",
+      "participants": [
+        {
+          "actorRecordId": "urdaibai:agents:70",
+          "role": "Registered housing cooperative and collective resource holder",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ankurkulu-use:e1",
+            "urdaibai:episode:ankurkulu-use:e2"
+          ]
+        },
+        {
+          "actorRecordId": "urdaibai:context:ankurkulu-members",
+          "role": "Resident members using housing through the cooperative; no individuals modelled",
+          "status": "reported_participation",
+          "evidenceIds": [
+            "urdaibai:episode:ankurkulu-use:e1",
+            "urdaibai:episode:ankurkulu-use:e3"
+          ]
+        }
+      ],
+      "evidence": [
+        {
+          "documentId": "urdaibai:document:ktool-public",
+          "sourceType": "project_record",
+          "sourceRecordId": "urdaibai:projects:513",
+          "englishSummary": "The project record describes cooperative self-management, collective ownership and use rights without a profit purpose.",
+          "url": "https://urdaibai.agirrecenter.eus/project/513",
+          "quote": null,
+          "id": "urdaibai:episode:ankurkulu-use:e1"
+        },
+        {
+          "documentId": "urdaibai:document:ankur-registry",
+          "sourceType": "official_public_excerpt",
+          "quote": "PROCURAR PARA SUS SOCIOS A PRECIO DE COSTE Y EN REGIMEN DE CESION DE USO VIVIENDAS",
+          "language": "es",
+          "englishSummary": "The registry specifies access to housing at cost for members, through a right-of-use arrangement.",
+          "id": "urdaibai:episode:ankurkulu-use:e2"
+        },
+        {
+          "documentId": "urdaibai:document:ankur-reas",
+          "sourceType": "public_source_summary",
+          "englishSummary": "REAS reports a first-hand account by Ankurkulu participants of an inhabited right-of-use housing cooperative in Mendata.",
+          "quote": null,
+          "id": "urdaibai:episode:ankurkulu-use:e3"
+        }
+      ],
+      "functionalReadings": [
+        {
+          "functionId": "support",
+          "interpretation": "Collective ownership and use rights form a durable shared resource through which members make housing access available to one another. This code is about the tenure arrangement, not interpersonal care.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:ankurkulu-use:e1",
+            "urdaibai:episode:ankurkulu-use:e2",
+            "urdaibai:episode:ankurkulu-use:e3"
+          ]
+        },
+        {
+          "functionId": "coordination",
+          "interpretation": "Cooperative tenure links collective ownership with individual use through a common arrangement. The sources do not detail internal decisions or governance routines.",
+          "status": "analyst_interpretation",
+          "evidenceIds": [
+            "urdaibai:episode:ankurkulu-use:e1",
+            "urdaibai:episode:ankurkulu-use:e2"
+          ]
+        }
+      ]
+    }
+  ],
+  "designPrinciple": "Activities reveal situated functional configurations. Portfolio reading compares and connects these configurations; it does not assign a single capacity score to a group.",
+  "syntheticPeople": 0,
+  "capacityScores": null,
+  "territory": {
+    "id": "urdaibai",
+    "name": "Busturialdea–Urdaibai",
+    "country": "Spain",
+    "region": "Basque Country",
+    "coordinates": [
+      43.3415,
+      -2.676
+    ],
+    "coordinateOrder": "latitude,longitude",
+    "zoom": 10,
+    "coordinateMeaning": "UNESCO biosphere reserve reference point; not a project coordinate or administrative boundary",
+    "coordinateSource": "https://www.unesco.org/en/mab/urdaibai?hub=66369"
+  }
+}

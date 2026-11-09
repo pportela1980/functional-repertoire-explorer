@@ -1,0 +1,43 @@
+{
+  "name": "w4p-necocli-functional-repertoire",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "data": "node scripts/build-data.mjs && node scripts/build-urdaibai.mjs",
+    "check:data": "node scripts/check-data.mjs && node scripts/check-urdaibai.mjs",
+    "dev": "npm run data && vite",
+    "build": "npm run data && npm run check:data && tsc --noEmit -p . && vite build",
+    "preview": "vite preview",
+    "build:pages": "tsc --noEmit -p . && vite build",
+    "build:single": "npm run data && vite build -c vite.single.config.ts",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "d3-drag": "^3.0.0",
+    "d3-force": "^3.0.0",
+    "d3-polygon": "^3.0.1",
+    "d3-selection": "^3.0.0",
+    "d3-transition": "^3.0.1",
+    "d3-zoom": "^3.0.0",
+    "leaflet": "^1.9.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/d3-drag": "^3.0.7",
+    "@types/d3-force": "^3.0.10",
+    "@types/d3-polygon": "^3.0.2",
+    "@types/d3-selection": "^3.0.12",
+    "@types/d3-transition": "^3.0.9",
+    "@types/d3-zoom": "^3.0.9",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^26.6.6",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-plugin-singlefile": "^2.0.3"
+  }
+}

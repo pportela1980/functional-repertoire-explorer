@@ -1,0 +1,99 @@
+{
+  "about": "Episodes added in this build to the eight curated ones in functional-reading.json. Same schema. Each is traceable to a report page; quotes are checked by `npm run check:data`. Actor ids are initiative-level source associations, not attendance lists.",
+  "episodes": [
+    {
+      "id": "ep-tourism-table",
+      "title": "Listening to the tourism table about enabling conditions",
+      "initiativeIds": ["protots:268", "protots:260"],
+      "actorRecordIds": ["external-entitities:52", "external-entitities:53", "external-entitities:62", "external-entitities:69", "external-entitities:72"],
+      "demand": "Identify what institutions must provide so that community tourism experiences can be sustained.",
+      "reportedResponse": "An exploratory session with the Necoclí tourism table identified dispersed tourism information, limited promotion and commercialization capacity, and no information system for decisions. The table did not dispute the community's hypothesis; it named three weak ecosystem capacities.",
+      "reportedContinuity": "Tourism communication governance, a tourism information system and commercialization of experiences are named as complementary mechanisms. These are proposals for the co-creation phase, not completed actions.",
+      "functionalReadings": [
+        {
+          "functionId": "coordination",
+          "interpretation": "The table is a space where institutional and community levels are aligned around shared enabling conditions; the report presents this as a first methodological exercise, not an operating coordination routine.",
+          "status": "analyst_interpretation",
+          "evidenceIds": ["ep-tourism-table:e1", "ep-tourism-table:e2"]
+        },
+        {
+          "functionId": "knowledge",
+          "interpretation": "Institutional actors add knowledge about enabling conditions (information, promotion, governance) to the community's experience-based hypothesis.",
+          "status": "analyst_interpretation",
+          "evidenceIds": ["ep-tourism-table:e2"]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ep-tourism-table:e1",
+          "documentId": "codespa",
+          "pdfPage": 4,
+          "quote": "El encuentro permitió identificar desafíos ecosistémicos asociados a la dispersión de la información turística, las limitadas capacidades de promoción y comercialización de las experiencias comunitarias",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        },
+        {
+          "id": "ep-tourism-table:e2",
+          "documentId": "codespa",
+          "pdfPage": 29,
+          "quote": "La Mesa de Turismo no cuestionó la hipótesis planteada por la comunidad",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        }
+      ],
+      "occurrenceDate": null,
+      "reportingPeriod": "Codespa listening report, March–June 2026",
+      "participantLevel": "organizations and roles; no invented individual identities",
+      "sourceStatus": "reported_episode",
+      "curationStatus": "added in this build; analyst selection, editable",
+      "actorLinkMeaning": "initiative-level source association with the Mesa de Articulación Turística / Red Colaborativa; attendance at the session is not asserted"
+    },
+    {
+      "id": "ep-lab",
+      "title": "Entrepreneurs valuing access to networks beyond training",
+      "initiativeIds": ["protots:258"],
+      "actorRecordIds": ["external-entitities:73", "alias:antojate"],
+      "demand": "Turn early-stage businesses of women and young people into sustainable sources of income.",
+      "reportedResponse": "Participants explicitly valued articulation programmes such as W4P, contact networks and meeting spaces as assets beyond training. Most businesses report sales, but for many they are not yet the main source of income.",
+      "reportedContinuity": "The report recommends consolidating and widening articulation spaces and differentiated support by business maturity. Recommendations, not completed actions.",
+      "functionalReadings": [
+        {
+          "functionId": "knowledge",
+          "interpretation": "Access to contacts and circulating information is described as complementary to formal training: a possible channel for recombining market and production knowledge.",
+          "status": "analyst_interpretation",
+          "evidenceIds": ["ep-lab:e1", "ep-lab:e2"]
+        },
+        {
+          "functionId": "mobilisation",
+          "interpretation": "Meeting spaces bring entrepreneurs and ecosystem actors into contact; the source does not show what collective action followed.",
+          "status": "analyst_interpretation",
+          "evidenceIds": ["ep-lab:e1"]
+        }
+      ],
+      "evidence": [
+        {
+          "id": "ep-lab:e1",
+          "documentId": "uniban",
+          "pdfPage": 52,
+          "quote": "los participantes valoraron explícitamente los programas de articulación como W4P, las redes de contactos y los espacios de encuentro como activos que trascienden la capacitación.",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        },
+        {
+          "id": "ep-lab:e2",
+          "documentId": "uniban",
+          "pdfPage": 54,
+          "quote": "requieren acceso a redes, contactos, circulación de información y relacionamiento con actores estratégicos.",
+          "language": "es",
+          "sourceType": "report_excerpt"
+        }
+      ],
+      "occurrenceDate": null,
+      "reportingPeriod": "Unibán Agroinnova listening report, 2026",
+      "participantLevel": "organizations and roles; no invented individual identities",
+      "sourceStatus": "reported_episode",
+      "curationStatus": "added in this build; analyst selection, editable",
+      "actorLinkMeaning": "initiative-level source association with Laboratorio Impulsando Oportunidades; attendance is not asserted"
+    }
+  ]
+}

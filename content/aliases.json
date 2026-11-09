@@ -1,0 +1,67 @@
+{
+  "about": "Explicit, inspectable alias decisions. Every source record is retained; consolidation only affects which display node represents it. Edit here, then run `npm run data`.",
+  "groups": [
+    {
+      "displayId": "alias:catifrut",
+      "displayName": "Catifrut",
+      "recordIds": ["external-entitities:86", "external-entitities:94"],
+      "decision": "consolidate",
+      "reason": "Same name in two ecosystem records; one typed 'Sector civil', the other 'Empresa incubada por W4P'. Both are linked only to Sabores que conectan, whose source description names Catifrut as one enterprise."
+    },
+    {
+      "displayId": "alias:necocli-joven",
+      "displayName": "Colectivo Necoclí Joven",
+      "recordIds": ["external-entitities:85", "external-entitities:93"],
+      "decision": "consolidate",
+      "reason": "Same name in two ecosystem records ('Sector civil' / 'Empresa incubada por W4P'), both linked only to Sabores que conectan, whose description names 'el colectivo Necoclí Joven'."
+    },
+    {
+      "displayId": "alias:cativo",
+      "displayName": "Asociación Agropecuaria Ecológica Sostenible Cativo (ECOSOSTENIBLE)",
+      "recordIds": ["external-entitities:79", "w4-p-entities:178"],
+      "decision": "consolidate",
+      "reason": "Cross-collection representation: the same association appears as an ecosystem record and as a programme member entity. The ecosystem record's interconnection text says it is 'entidad aliada en la red Codespa'."
+    },
+    {
+      "displayId": "alias:udea",
+      "displayName": "Universidad de Antioquia (UdeA)",
+      "recordIds": ["external-entitities:61", "w4-p-entities:260"],
+      "decision": "consolidate",
+      "reason": "Cross-collection representation of the same university (ecosystem record and programme entity record)."
+    },
+    {
+      "displayId": "alias:antojate",
+      "displayName": "Gobernación de Antioquia – Programa Antójate de Antioquia",
+      "recordIds": ["external-entitities:95", "external-entitities:89"],
+      "decision": "consolidate",
+      "reason": "Two ecosystem records naming the same departmental programme; record 89 has no Necoclí tag and no interconnections."
+    },
+    {
+      "displayId": "w4-p-entities:176",
+      "displayName": "Fundación Uniminuto",
+      "recordIds": ["w4-p-entities:176", "w4-p-entities:258"],
+      "decision": "keep_separate",
+      "reason": "'Fundación Uniminuto' and 'Corporación Universitaria Minuto de Dios – UNIMINUTO' may be distinct legal bodies of the same group. Not merged; flagged as candidate."
+    },
+    {
+      "displayId": "w4-p-entities:202",
+      "displayName": "Fundación Luker",
+      "recordIds": ["w4-p-entities:202", "w4-p-entities:203"],
+      "decision": "keep_separate",
+      "reason": "Foundation and company are different organizations even if related."
+    },
+    {
+      "displayId": "external-entitities:83",
+      "displayName": "Asoprone",
+      "recordIds": ["external-entitities:83"],
+      "decision": "keep_separate",
+      "reason": "No duplicate found; listed to document that Asoprone and Asoalnec (external-entitities:81) are different associations despite similar acronyms."
+    }
+  ],
+  "excludeFromActorGraph": [
+    {
+      "recordId": "external-entitities:6",
+      "reason": "Stored as an external entity, but its name and text describe an event (presentation of the W4P networks at the Necoclí economic table, 7 March). Shown in Listening as an event record, not as an organization."
+    }
+  ]
+}

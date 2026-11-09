@@ -1,0 +1,96 @@
+{
+  "name": "Necoclí",
+  "department": "Antioquia",
+  "subregion": "Urabá antioqueño",
+  "country": "Colombia",
+  "sourceZoneId": 37,
+  "center": {
+    "lat": 8.4258,
+    "lon": -76.7836
+  },
+  "centerPrecision": "Municipal seat (town of Necoclí), approximate to about 1 km. Coordinates follow the commonly published OpenStreetMap / Wikipedia placement of the town. They could not be re-verified online from this build environment (the geographic hosts were not reachable); please confirm against OpenStreetMap before external use.",
+  "projectLocationNote": "No initiative has verified site coordinates in the source snapshot. Initiatives are shown as a territory-level cluster attached to the municipality, not as point markers.",
+  "reportContext": [
+    {
+      "documentId": "uniban",
+      "pdfPage": 6,
+      "quote": "Cuenta con una extensión aproximada de 137.700 hectáreas, de las cuales el 87% tiene vocación agropecuaria, y una población cercana a los 45.000 habitantes, de los cuales el 73% reside en zona rural."
+    },
+    {
+      "documentId": "uniban",
+      "pdfPage": 7,
+      "quote": "Necoclí está conformado por 122 veredas distribuidas en ocho corregimientos."
+    },
+    {
+      "documentId": "codespa",
+      "pdfPage": 3,
+      "quote": "El principal obstáculo no es productivo, sino relacional"
+    }
+  ],
+  "programme": {
+    "name": "Work4Progress (W4P)",
+    "promoter": "Fundación \"la Caixa\"",
+    "sourceNote": "The data in this demo were retrieved on 5 Nov 2026 from the public API of the Work4Progress platform of Fundación \"la Caixa\" (work4progress.fundacionlacaixa.org), as recorded in the extraction manifest of the reference pack.",
+    "platformUrl": "https://work4progress.fundacionlacaixa.org/"
+  },
+  "story": [
+    {
+      "id": "place",
+      "title": "The place",
+      "text": "Necoclí is a municipality on the Caribbean coast of Urabá, in north-western Antioquia. Most of its territory and most of its people are rural; the economy rests on farming (plantain, cacao, fruit, livestock), trade and an emerging community tourism. In January 2026 heavy rains hit thousands of families.",
+      "refs": [
+        {
+          "documentId": "uniban",
+          "pdfPage": 6,
+          "quote": "Cuenta con una extensión aproximada de 137.700 hectáreas, de las cuales el 87% tiene vocación agropecuaria, y una población cercana a los 45.000 habitantes, de los cuales el 73% reside en zona rural."
+        },
+        {
+          "documentId": "uniban",
+          "pdfPage": 10,
+          "quote": "dejando un total de 5.271 familias damnificadas y 14.402 personas afectadas."
+        }
+      ]
+    },
+    {
+      "id": "challenge",
+      "title": "The complex challenge",
+      "text": "The listening reports describe a paradox: organizations have learned to produce better, but this has not become more income. Markets, finance, information and the initiatives themselves remain poorly connected. The reports call the main obstacle relational, not productive — a challenge no single organization or project can solve alone.",
+      "refs": [
+        {
+          "documentId": "codespa",
+          "pdfPage": 3,
+          "quote": "El principal obstáculo no es productivo, sino relacional: las organizaciones saben producir, pero enfrentan barreras para conectar su producción con mercados, inversiones y oportunidades de crecimiento."
+        },
+        {
+          "documentId": "codespa",
+          "pdfPage": 26,
+          "quote": "estos avances no se han traducido necesariamente en mayores ingresos para las familias participantes."
+        }
+      ]
+    },
+    {
+      "id": "response",
+      "title": "The Work4Progress response",
+      "text": "Work4Progress is a programme of Fundación \"la Caixa\". In Necoclí it works through consortia (here called programme networks) led by Codespa, Corporación Interactuar and Fundación Uniban. They listen to the territory, co-create and test prototypes — eleven initiative records in this snapshot — and listen again to learn what worked.",
+      "refs": [
+        {
+          "documentId": "codespa",
+          "pdfPage": 3,
+          "quote": "El proceso permitió evaluar los seis prototipos implementados, identificar desafíos estructurales del ecosistema emprendedor local y construir hipótesis para la fase de cocreación."
+        }
+      ]
+    },
+    {
+      "id": "question",
+      "title": "The question of this demo",
+      "text": "If the challenge is relational, the useful question is not only which projects exist, but which collective functions they make possible: mobilising people and resources, recombining knowledge, coordinating commitments and providing mutual support. The following views read the same data through these four functions — without forecasts or scores.",
+      "refs": [
+        {
+          "documentId": "codespa",
+          "pdfPage": 26,
+          "quote": "Cada una de estas capacidades resuelve una parte de la cadena de valor, pero su verdadero potencial emerge cuando operan de manera articulada."
+        }
+      ]
+    }
+  ]
+}

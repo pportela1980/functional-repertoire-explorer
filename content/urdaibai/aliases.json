@@ -1,0 +1,14 @@
+{
+  "about": "Explicit alias decisions for Urdaibai. Source records are retained; aliases only affect display and counting.",
+  "listeningSourceAliases": [
+    {
+      "alias": "0145",
+      "canonical": "0088",
+      "reason": "Sources 0088 and 0145 share 9 excerpts of identical text (of 11 and 10). Treated as one listening source, as decided by Pedro Portela (9 Nov 2026). The original code is kept on each excerpt."
+    }
+  ],
+  "notes": [
+    "One further text is shared by sources 0042, 0143 and 0146; not merged (single shared excerpt).",
+    "K-tool project localisation aliases (415) are not separate records in the pack and are not shown as separate initiatives."
+  ]
+}

@@ -1,0 +1,5 @@
+{
+ "excerpts": 57,
+ "verified": 57,
+ "method": "Whitespace-normalised substring match against the text extracted from the cited 1-based PDF page."
+}

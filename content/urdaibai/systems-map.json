@@ -1,0 +1,679 @@
+{
+  "schema_version": "1.0",
+  "map": {
+    "id": "urdaibai:systems-map:v0.1",
+    "version": "0.1",
+    "title": "Urdaibai — Listening-informed systems map",
+    "language": "en",
+    "created_at": "2026-10-29",
+    "territory": "Urdaibai / Busturialdea",
+    "question": "What helps or hinders people staying in Urdaibai while sustaining the local economy and preserving the territory?",
+    "time_horizon_years": 10,
+    "horizon_status": "provisional modelling choice",
+    "status": "exploratory_hypothesis",
+    "description": "A synthesis proposed from ten supplied interview documents, completed with explicit modeller hypotheses. It is not a validated shared mental model.",
+    "source_archive": "drive-download-20261029T151601Z-1-001.zip",
+    "source_interview_ids": [
+      "0002",
+      "0009",
+      "0021",
+      "0024",
+      "0067",
+      "0082",
+      "0105",
+      "0108",
+      "0119",
+      "0273"
+    ],
+    "provenance_legend": {
+      "interview": "Relationship or idea described in interviews; interview-level references, not a quote audit.",
+      "synthesis": "Interpretation across or within interviews.",
+      "hypothesis": "Modeller-added mechanism, not established by the interview evidence."
+    },
+    "limitations": [
+      "No participant or independent linguistic validation.",
+      "No systematic quote-level support or contradiction audit.",
+      "Conditional effects and unrepresented delays.",
+      "Some variable definitions aggregate distinct mechanisms.",
+      "Tourism is an external driver; ecosystems have no outgoing influence.",
+      "No balancing loops represented.",
+      "Map polarity is not a CIB state-to-state score."
+    ]
+  },
+  "variables": [
+    {
+      "id": "urdaibai:variable:T",
+      "name": "Tourism activity",
+      "definition": "Intensity of visitor activity in the territory, including day visits and overnight stays.",
+      "theme": "tourism",
+      "origin": "interview",
+      "interview_ids": [
+        "0002",
+        "0009",
+        "0024",
+        "0082",
+        "0273"
+      ],
+      "position": {
+        "x": 500,
+        "y": 300
+      },
+      "review_notes": "This variable is an external driver in version 0.1. Visitor volume is not the same as economic benefit.",
+      "localId": "T",
+      "sourceRecordIds": [
+        "urdaibai:interview:0002",
+        "urdaibai:interview:0009",
+        "urdaibai:interview:0024",
+        "urdaibai:interview:0082",
+        "urdaibai:interview:0273"
+      ]
+    },
+    {
+      "id": "urdaibai:variable:B",
+      "name": "Locally retained economic benefits",
+      "definition": "Economic benefits reaching residents and local organisations through earnings, procurement and other income.",
+      "theme": "economy",
+      "origin": "synthesis",
+      "interview_ids": [
+        "0105",
+        "0108",
+        "0273"
+      ],
+      "position": {
+        "x": 830,
+        "y": 380
+      },
+      "review_notes": "Broadened from tourism benefits to benefits from local initiatives. This generalisation requires review; distribution is not represented separately.",
+      "localId": "B",
+      "sourceRecordIds": [
+        "urdaibai:interview:0105",
+        "urdaibai:interview:0108",
+        "urdaibai:interview:0273"
+      ]
+    },
+    {
+      "id": "urdaibai:variable:H",
+      "name": "Access to permanent housing",
+      "definition": "Residents’ ability to obtain year-round housing at costs compatible with their income.",
+      "theme": "living",
+      "origin": "interview",
+      "interview_ids": [
+        "0002",
+        "0009",
+        "0082",
+        "0105",
+        "0108"
+      ],
+      "position": {
+        "x": 180,
+        "y": 420
+      },
+      "review_notes": "Availability and affordability are aggregated in this first version.",
+      "localId": "H",
+      "sourceRecordIds": [
+        "urdaibai:interview:0002",
+        "urdaibai:interview:0009",
+        "urdaibai:interview:0082",
+        "urdaibai:interview:0105",
+        "urdaibai:interview:0108"
+      ]
+    },
+    {
+      "id": "urdaibai:variable:E",
+      "name": "Ecosystem condition",
+      "definition": "Health of habitats and ecosystems, including wetlands.",
+      "theme": "ecology",
+      "origin": "interview",
+      "interview_ids": [
+        "0009",
+        "0021",
+        "0108"
+      ],
+      "position": {
+        "x": 500,
+        "y": 510
+      },
+      "review_notes": "An outcome-only variable in this map; ecological feedback is not represented.",
+      "localId": "E",
+      "sourceRecordIds": [
+        "urdaibai:interview:0009",
+        "urdaibai:interview:0021",
+        "urdaibai:interview:0108"
+      ]
+    },
+    {
+      "id": "urdaibai:variable:S",
+      "name": "Access to essential services",
+      "definition": "Ability to meet everyday needs for health, care and basic services, including the travel required.",
+      "theme": "living",
+      "origin": "synthesis",
+      "interview_ids": [
+        "0002",
+        "0067",
+        "0119",
+        "0273"
+      ],
+      "position": {
+        "x": 180,
+        "y": 650
+      },
+      "review_notes": "Aggregates different services and mobility. They may evolve in different directions.",
+      "localId": "S",
+      "sourceRecordIds": [
+        "urdaibai:interview:0002",
+        "urdaibai:interview:0067",
+        "urdaibai:interview:0119",
+        "urdaibai:interview:0273"
+      ]
+    },
+    {
+      "id": "urdaibai:variable:J",
+      "name": "Stable local employment",
+      "definition": "Availability of local paid work with continuity across the year.",
+      "theme": "economy",
+      "origin": "synthesis",
+      "interview_ids": [
+        "0002",
+        "0009",
+        "0082",
+        "0105",
+        "0273"
+      ],
+      "position": {
+        "x": 830,
+        "y": 610
+      },
+      "review_notes": "More economic activity does not automatically create stable or adequately paid jobs.",
+      "localId": "J",
+      "sourceRecordIds": [
+        "urdaibai:interview:0002",
+        "urdaibai:interview:0009",
+        "urdaibai:interview:0082",
+        "urdaibai:interview:0105",
+        "urdaibai:interview:0273"
+      ]
+    },
+    {
+      "id": "urdaibai:variable:P",
+      "name": "Young adults staying locally",
+      "definition": "Extent to which young adults remain resident in the territory.",
+      "theme": "living",
+      "origin": "synthesis",
+      "interview_ids": [
+        "0002",
+        "0009",
+        "0082",
+        "0105",
+        "0108"
+      ],
+      "position": {
+        "x": 830,
+        "y": 830
+      },
+      "review_notes": "Retention is not identical to net migration or the size of the resident population. Age range remains to be defined.",
+      "localId": "P",
+      "sourceRecordIds": [
+        "urdaibai:interview:0002",
+        "urdaibai:interview:0009",
+        "urdaibai:interview:0082",
+        "urdaibai:interview:0105",
+        "urdaibai:interview:0108"
+      ]
+    },
+    {
+      "id": "urdaibai:variable:D",
+      "name": "Year-round local demand",
+      "definition": "Demand from residents for locally supplied goods and services throughout the year.",
+      "theme": "economy",
+      "origin": "hypothesis",
+      "interview_ids": [],
+      "position": {
+        "x": 500,
+        "y": 880
+      },
+      "review_notes": "Modeller-added mechanism, informed by the discussion of spending outside the region in interview 0105.",
+      "localId": "D",
+      "sourceRecordIds": []
+    },
+    {
+      "id": "urdaibai:variable:V",
+      "name": "Viability of local businesses",
+      "definition": "Ability of businesses serving local demand to sustain operations.",
+      "theme": "economy",
+      "origin": "hypothesis",
+      "interview_ids": [],
+      "position": {
+        "x": 500,
+        "y": 660
+      },
+      "review_notes": "Applies primarily to locally oriented retail and services, not equally to export businesses.",
+      "localId": "V",
+      "sourceRecordIds": []
+    },
+    {
+      "id": "urdaibai:variable:C",
+      "name": "Trust in collective action",
+      "definition": "Expectation that working together can produce credible and fairly distributed local outcomes.",
+      "theme": "governance",
+      "origin": "synthesis",
+      "interview_ids": [
+        "0021",
+        "0119"
+      ],
+      "position": {
+        "x": 180,
+        "y": 150
+      },
+      "review_notes": "Distinct from trust in institutional decisions. The change of meaning from the earlier discussion needs review.",
+      "localId": "C",
+      "sourceRecordIds": [
+        "urdaibai:interview:0021",
+        "urdaibai:interview:0119"
+      ]
+    },
+    {
+      "id": "urdaibai:variable:G",
+      "name": "Territorial coordination",
+      "definition": "Ability of municipalities, institutions, firms and civil society to organise joint action at regional scale.",
+      "theme": "governance",
+      "origin": "synthesis",
+      "interview_ids": [
+        "0021",
+        "0105",
+        "0119"
+      ],
+      "position": {
+        "x": 500,
+        "y": 100
+      },
+      "review_notes": "Coordination is a capacity, not a guarantee of desirable outcomes.",
+      "localId": "G",
+      "sourceRecordIds": [
+        "urdaibai:interview:0021",
+        "urdaibai:interview:0105",
+        "urdaibai:interview:0119"
+      ]
+    },
+    {
+      "id": "urdaibai:variable:X",
+      "name": "Delivery of joint initiatives",
+      "definition": "Extent to which jointly organised initiatives are implemented.",
+      "theme": "governance",
+      "origin": "synthesis",
+      "interview_ids": [
+        "0021",
+        "0105",
+        "0119"
+      ],
+      "position": {
+        "x": 830,
+        "y": 150
+      },
+      "review_notes": "Type, purpose and distribution of initiatives matter; implementation alone does not ensure benefits.",
+      "localId": "X",
+      "sourceRecordIds": [
+        "urdaibai:interview:0021",
+        "urdaibai:interview:0105",
+        "urdaibai:interview:0119"
+      ]
+    }
+  ],
+  "influences": [
+    {
+      "id": "urdaibai:influence:L01",
+      "source": "urdaibai:variable:T",
+      "target": "urdaibai:variable:B",
+      "polarity": 1,
+      "origin": "interview",
+      "interview_ids": [
+        "0105",
+        "0273"
+      ],
+      "explanation": "Visitor activity can generate income for local accommodation, businesses and workers.",
+      "conditions": "Visitors spend locally and benefits are retained rather than leaking out.",
+      "review_notes": "Not all visitor growth benefits residents.",
+      "review_status": "unvalidated",
+      "localId": "L01",
+      "sourceRecordIds": [
+        "urdaibai:interview:0105",
+        "urdaibai:interview:0273"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "urdaibai:influence:L02",
+      "source": "urdaibai:variable:T",
+      "target": "urdaibai:variable:H",
+      "polarity": -1,
+      "origin": "synthesis",
+      "interview_ids": [
+        "0002",
+        "0009",
+        "0082",
+        "0108"
+      ],
+      "explanation": "Tourism growth can encourage conversion to short-term accommodation and restrict access to year-round housing.",
+      "conditions": "Housing supply and regulation do not offset conversion or price pressure.",
+      "review_notes": "The effect is mediated by the accommodation and housing markets.",
+      "review_status": "unvalidated",
+      "localId": "L02",
+      "sourceRecordIds": [
+        "urdaibai:interview:0002",
+        "urdaibai:interview:0009",
+        "urdaibai:interview:0082",
+        "urdaibai:interview:0108"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "urdaibai:influence:L03",
+      "source": "urdaibai:variable:T",
+      "target": "urdaibai:variable:E",
+      "polarity": -1,
+      "origin": "interview",
+      "interview_ids": [
+        "0002",
+        "0009",
+        "0108"
+      ],
+      "explanation": "Visitor pressure and associated infrastructure can damage habitats and ecosystems.",
+      "conditions": "Activity affects vulnerable locations without sufficient protection or mitigation.",
+      "review_notes": "A perceived causal mechanism, not an independently verified ecological effect.",
+      "review_status": "unvalidated",
+      "localId": "L03",
+      "sourceRecordIds": [
+        "urdaibai:interview:0002",
+        "urdaibai:interview:0009",
+        "urdaibai:interview:0108"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "urdaibai:influence:L04",
+      "source": "urdaibai:variable:T",
+      "target": "urdaibai:variable:S",
+      "polarity": -1,
+      "origin": "interview",
+      "interview_ids": [
+        "0273"
+      ],
+      "explanation": "Additional visitors place demands on transport, waste and other local services.",
+      "conditions": "Service capacity and municipal resources do not keep pace.",
+      "review_notes": "The interview describes resource pressure; the map generalises to access.",
+      "review_status": "unvalidated",
+      "localId": "L04",
+      "sourceRecordIds": [
+        "urdaibai:interview:0273"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "urdaibai:influence:L05",
+      "source": "urdaibai:variable:B",
+      "target": "urdaibai:variable:J",
+      "polarity": 1,
+      "origin": "hypothesis",
+      "interview_ids": [],
+      "explanation": "Locally retained benefits may sustain businesses and create continuing employment.",
+      "conditions": "Benefits are invested in year-round activity rather than only rents or seasonal jobs.",
+      "review_notes": "Requires review; retained income is not a sufficient condition for stable jobs.",
+      "review_status": "unvalidated",
+      "localId": "L05",
+      "sourceRecordIds": [],
+      "defaultVisible": false
+    },
+    {
+      "id": "urdaibai:influence:L06",
+      "source": "urdaibai:variable:J",
+      "target": "urdaibai:variable:P",
+      "polarity": 1,
+      "origin": "interview",
+      "interview_ids": [
+        "0002",
+        "0009",
+        "0082",
+        "0105"
+      ],
+      "explanation": "Local work makes it more practicable for young adults to remain resident.",
+      "conditions": "Work is suitable and other necessities, including housing, are accessible.",
+      "review_notes": "Employment is one influence among several.",
+      "review_status": "unvalidated",
+      "localId": "L06",
+      "sourceRecordIds": [
+        "urdaibai:interview:0002",
+        "urdaibai:interview:0009",
+        "urdaibai:interview:0082",
+        "urdaibai:interview:0105"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "urdaibai:influence:L07",
+      "source": "urdaibai:variable:H",
+      "target": "urdaibai:variable:P",
+      "polarity": 1,
+      "origin": "interview",
+      "interview_ids": [
+        "0009",
+        "0105",
+        "0108"
+      ],
+      "explanation": "Accessible year-round housing makes remaining in the territory more feasible.",
+      "conditions": "Housing is suitable for residents’ circumstances.",
+      "review_notes": "Does not imply housing alone determines migration.",
+      "review_status": "unvalidated",
+      "localId": "L07",
+      "sourceRecordIds": [
+        "urdaibai:interview:0009",
+        "urdaibai:interview:0105",
+        "urdaibai:interview:0108"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "urdaibai:influence:L08",
+      "source": "urdaibai:variable:S",
+      "target": "urdaibai:variable:P",
+      "polarity": 1,
+      "origin": "hypothesis",
+      "interview_ids": [],
+      "explanation": "Access to everyday services may make staying locally more feasible and attractive.",
+      "conditions": "Services meet needs relevant to young adults and their households.",
+      "review_notes": "Specific services and their importance remain unresolved.",
+      "review_status": "unvalidated",
+      "localId": "L08",
+      "sourceRecordIds": [],
+      "defaultVisible": false
+    },
+    {
+      "id": "urdaibai:influence:L09",
+      "source": "urdaibai:variable:P",
+      "target": "urdaibai:variable:D",
+      "polarity": 1,
+      "origin": "hypothesis",
+      "interview_ids": [],
+      "explanation": "Retained young residents may sustain regular local spending.",
+      "conditions": "Residents have purchasing power and spend a meaningful share locally.",
+      "review_notes": "Retention is a proxy; population, income and spending location are omitted mediators.",
+      "review_status": "unvalidated",
+      "localId": "L09",
+      "sourceRecordIds": [],
+      "defaultVisible": false
+    },
+    {
+      "id": "urdaibai:influence:L10",
+      "source": "urdaibai:variable:D",
+      "target": "urdaibai:variable:V",
+      "polarity": 1,
+      "origin": "hypothesis",
+      "interview_ids": [],
+      "explanation": "Regular local demand may help locally oriented firms cover costs and remain viable.",
+      "conditions": "Demand reaches these firms and margins are sufficient.",
+      "review_notes": "Primarily concerns local retail and services.",
+      "review_status": "unvalidated",
+      "localId": "L10",
+      "sourceRecordIds": [],
+      "defaultVisible": false
+    },
+    {
+      "id": "urdaibai:influence:L11",
+      "source": "urdaibai:variable:V",
+      "target": "urdaibai:variable:J",
+      "polarity": 1,
+      "origin": "hypothesis",
+      "interview_ids": [],
+      "explanation": "Viable local firms may retain or create continuing jobs.",
+      "conditions": "Business survival or growth translates into stable paid work.",
+      "review_notes": "Employment intensity and working conditions are not fixed.",
+      "review_status": "unvalidated",
+      "localId": "L11",
+      "sourceRecordIds": [],
+      "defaultVisible": false
+    },
+    {
+      "id": "urdaibai:influence:L12",
+      "source": "urdaibai:variable:C",
+      "target": "urdaibai:variable:G",
+      "polarity": 1,
+      "origin": "synthesis",
+      "interview_ids": [
+        "0021"
+      ],
+      "explanation": "Trust in working together can make sustained cooperation easier.",
+      "conditions": "Actors have opportunities and authority to cooperate.",
+      "review_notes": "Interpretive synthesis; institutional trust and interpersonal trust are not interchangeable.",
+      "review_status": "unvalidated",
+      "localId": "L12",
+      "sourceRecordIds": [
+        "urdaibai:interview:0021"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "urdaibai:influence:L13",
+      "source": "urdaibai:variable:G",
+      "target": "urdaibai:variable:X",
+      "polarity": 1,
+      "origin": "synthesis",
+      "interview_ids": [
+        "0021",
+        "0105",
+        "0119"
+      ],
+      "explanation": "Coordination can bring decisions, resources and capabilities together to implement initiatives.",
+      "conditions": "Coordination has resources and effective decision-making capacity.",
+      "review_notes": "Some interview statements are proposed remedies rather than observed causal outcomes.",
+      "review_status": "unvalidated",
+      "localId": "L13",
+      "sourceRecordIds": [
+        "urdaibai:interview:0021",
+        "urdaibai:interview:0105",
+        "urdaibai:interview:0119"
+      ],
+      "defaultVisible": true
+    },
+    {
+      "id": "urdaibai:influence:L14",
+      "source": "urdaibai:variable:X",
+      "target": "urdaibai:variable:B",
+      "polarity": 1,
+      "origin": "hypothesis",
+      "interview_ids": [],
+      "explanation": "Joint initiatives may generate economic benefits that remain locally.",
+      "conditions": "Initiatives address local needs and benefits are retained locally.",
+      "review_notes": "Not every initiative has an economic objective or produces positive results.",
+      "review_status": "unvalidated",
+      "localId": "L14",
+      "sourceRecordIds": [],
+      "defaultVisible": false
+    },
+    {
+      "id": "urdaibai:influence:L15",
+      "source": "urdaibai:variable:B",
+      "target": "urdaibai:variable:C",
+      "polarity": 1,
+      "origin": "hypothesis",
+      "interview_ids": [],
+      "explanation": "Visible local benefits may strengthen confidence in collective action.",
+      "conditions": "Benefits are recognised as fair and credibly attributed to joint action.",
+      "review_notes": "Economic benefit alone does not guarantee trust.",
+      "review_status": "unvalidated",
+      "localId": "L15",
+      "sourceRecordIds": [],
+      "defaultVisible": false
+    },
+    {
+      "id": "urdaibai:influence:L16",
+      "source": "urdaibai:variable:X",
+      "target": "urdaibai:variable:S",
+      "polarity": 1,
+      "origin": "hypothesis",
+      "interview_ids": [],
+      "explanation": "Joint initiatives can improve essential-service access.",
+      "conditions": "Initiatives specifically address services and are effective.",
+      "review_notes": "A conditional pathway, not a generic effect of all initiatives.",
+      "review_status": "unvalidated",
+      "localId": "L16",
+      "sourceRecordIds": [],
+      "defaultVisible": false
+    }
+  ],
+  "loops": [
+    {
+      "id": "urdaibai:loop:R1",
+      "name": "Everyday economy",
+      "type": "reinforcing",
+      "variable_ids": [
+        "urdaibai:variable:J",
+        "urdaibai:variable:P",
+        "urdaibai:variable:D",
+        "urdaibai:variable:V"
+      ],
+      "influence_ids": [
+        "urdaibai:influence:L06",
+        "urdaibai:influence:L09",
+        "urdaibai:influence:L10",
+        "urdaibai:influence:L11"
+      ],
+      "origin": "hypothesis",
+      "interview_ids": [
+        "0002",
+        "0082",
+        "0105"
+      ],
+      "narrative": "Stable employment supports staying locally. Residents sustain year-round demand, helping local businesses remain viable and sustain jobs. The same reinforcing structure can amplify decline or recovery.",
+      "review_notes": "Three of four links are modeller hypotheses. This cycle is not demonstrated by the interviews."
+    },
+    {
+      "id": "urdaibai:loop:R2",
+      "name": "Collective capacity",
+      "type": "reinforcing",
+      "variable_ids": [
+        "urdaibai:variable:C",
+        "urdaibai:variable:G",
+        "urdaibai:variable:X",
+        "urdaibai:variable:B"
+      ],
+      "influence_ids": [
+        "urdaibai:influence:L12",
+        "urdaibai:influence:L13",
+        "urdaibai:influence:L14",
+        "urdaibai:influence:L15"
+      ],
+      "origin": "hypothesis",
+      "interview_ids": [
+        "0021",
+        "0119"
+      ],
+      "narrative": "Trust supports coordination and delivery of joint initiatives. When these produce visible, fairly distributed local benefits, trust may increase.",
+      "review_notes": "Two closing links are modeller hypotheses. Delivery without recognised and fairly distributed benefits need not build trust."
+    }
+  ],
+  "territoryId": "urdaibai",
+  "presentation": {
+    "defaultShowHypotheses": false,
+    "defaultShowLoops": false,
+    "label": "Analyst synthesis · exploratory, unvalidated",
+    "note": "Previously authored influence-map synthesis. Model hypotheses and loops dependent on them are optional. Interview-level references are not quotation-level validation. Do not generate new links to connect the evidence layers."
+  }
+}

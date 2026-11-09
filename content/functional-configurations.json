@@ -1,0 +1,24 @@
+{
+  "about": "Analyst synthesis. For each function, episodes are grouped into configurations according to the kind of response their functional interpretation describes. Groupings drive the layout of the Functional repertoire view; they are not source facts and carry no scores. An episode appears only under functions for which functional-reading.json (or episodes-extra.json) has a reading.",
+  "status": "analyst_synthesis",
+  "functions": {
+    "mobilisation": [
+      { "id": "mob-pool", "label": "Pooling shared resources", "episodes": ["ep-fund", "ep-purchases"], "rationale": "Associations bring money and purchase needs into a common pool." },
+      { "id": "mob-convene", "label": "Convening across sectors", "episodes": ["ep-mesa", "ep-buyers", "ep-lab"], "rationale": "Meetings and tables bring institutions, buyers and producers into contact." },
+      { "id": "mob-providers", "label": "Gathering local providers", "episodes": ["ep-routes"], "rationale": "Dispersed experience providers are brought around one offer." }
+    ],
+    "knowledge": [
+      { "id": "kn-technical", "label": "Technical know-how meets production", "episodes": ["ep-milk", "ep-purchases"], "rationale": "Good practices, soil and crop information enter production routines." },
+      { "id": "kn-territorial", "label": "Territorial and cultural knowledge into an offer", "episodes": ["ep-routes", "ep-vitrina", "ep-sabores"], "rationale": "Nature, culture, food traditions and local stories are combined." },
+      { "id": "kn-market", "label": "Market requirements meet supplier capabilities", "episodes": ["ep-buyers", "ep-mesa", "ep-tourism-table", "ep-lab"], "rationale": "Buyer, institutional and entrepreneurial perspectives are put side by side." }
+    ],
+    "coordination": [
+      { "id": "co-commitments", "label": "Shared financial and purchasing commitments", "episodes": ["ep-fund", "ep-purchases"], "rationale": "Allocation, repayment, aggregation and distribution must be aligned." },
+      { "id": "co-chain", "label": "Value-chain articulation with buyers", "episodes": ["ep-milk", "ep-buyers", "ep-mesa"], "rationale": "Production improvement, supply and buyer agreements are interdependent." },
+      { "id": "co-tourism", "label": "Aligning a tourism offer and its enabling conditions", "episodes": ["ep-routes", "ep-vitrina", "ep-sabores", "ep-tourism-table"], "rationale": "Services, costs, content and institutional conditions need recurrent alignment." }
+    ],
+    "support": [
+      { "id": "su-collective-resources", "label": "Collectively administered resources", "episodes": ["ep-fund"], "rationale": "The only curated episode read through mutual support. A thin evidence base is shown as such, not padded." }
+    ]
+  }
+}

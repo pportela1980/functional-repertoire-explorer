@@ -1,0 +1,24 @@
+{
+  "about": "Analyst synthesis for Urdaibai. Episodes grouped, per function, by the kind of response their reading describes. Not source facts; no scores.",
+  "status": "analyst_synthesis",
+  "functions": {
+    "mobilisation": [
+      { "id": "u-mob-contest", "label": "Contesting the museum extension", "episodes": ["urdaibai:episode:gus-talk", "urdaibai:episode:guggenheim-mobilisation"], "rationale": "A platform and residents activate people around opposition to the extension." },
+      { "id": "u-mob-convene", "label": "Convening the territory to contrast perspectives", "episodes": ["urdaibai:episode:ibarrangelu-sensemaking", "urdaibai:episode:murueta-sensemaking", "urdaibai:episode:bermeo-sensemaking", "urdaibai:episode:gernika-sensemaking", "urdaibai:episode:elantxobe-sensemaking", "urdaibai:episode:missing-voices", "urdaibai:episode:returning-results"], "rationale": "The listening process brings institutions, parties, platform and residents — and later the missing voices — around shared profiles." },
+      { "id": "u-mob-heritage", "label": "Sustaining shared heritage and celebrations", "episodes": ["urdaibai:episode:ortube-agreement", "urdaibai:episode:gaztelugatxe-tradition"], "rationale": "Money, volunteer time and institutional commitments are gathered for a boat and a gathering." }
+    ],
+    "knowledge": [
+      { "id": "u-kn-profiles", "label": "Revising shared profiles of the conflict", "episodes": ["urdaibai:episode:ibarrangelu-sensemaking", "urdaibai:episode:murueta-sensemaking", "urdaibai:episode:gernika-sensemaking", "urdaibai:episode:elantxobe-sensemaking", "urdaibai:episode:returning-results"], "rationale": "Participants test and revise analytical profiles; Ibarrangelu produced a new profile." },
+      { "id": "u-kn-outside", "label": "Bringing in missing and outside perspectives", "episodes": ["urdaibai:episode:missing-voices", "urdaibai:episode:international-seminar", "urdaibai:episode:gus-talk"], "rationale": "Voices not yet heard — young people, migrants, international experts, an opposition platform — are set against the prevailing reading." },
+      { "id": "u-kn-craft", "label": "Transmitting craft knowledge", "episodes": ["urdaibai:episode:ortube-school"], "rationale": "Volunteers and teachers pass on restoration skills to students; transfer more than recombination." }
+    ],
+    "coordination": [
+      { "id": "u-co-heritage", "label": "Aligning roles around heritage work", "episodes": ["urdaibai:episode:ortube-agreement", "urdaibai:episode:ortube-school", "urdaibai:episode:gaztelugatxe-tradition"], "rationale": "Distinct roles — owner, funder, technical direction, volunteers, businesses — are aligned around one undertaking." },
+      { "id": "u-co-institutional", "label": "Institutional regulation of shared resources", "episodes": ["urdaibai:episode:water-consortium", "urdaibai:episode:access-quotas"], "rationale": "Institutions align access to water and to a heavily visited site; contested by some residents." },
+      { "id": "u-co-tenure", "label": "Collective tenure", "episodes": ["urdaibai:episode:ankurkulu-use"], "rationale": "Housing use is organised through a cooperative's rules." }
+    ],
+    "support": [
+      { "id": "u-su-housing", "label": "Collectively held housing", "episodes": ["urdaibai:episode:ankurkulu-use"], "rationale": "The only episode read through mutual support. Institutional provision (water) is not coded as mutual support." }
+    ]
+  }
+}

@@ -1,0 +1,1146 @@
+{
+ "about": "Episodes added in this build from the ALC final report and the listening corpus (proposal v0 reviewed by Pedro Portela, 9 Nov 2026). Same schema as the pack episodes. Role groups never represent named persons. Each episode-specific role group belongs to one episode only.",
+ "episodes": [
+  {
+   "id": "urdaibai:episode:guggenheim-mobilisation",
+   "title": "Region-wide mobilisation over the museum extension",
+   "initiativeIds": [
+    "urdaibai:projects:158"
+   ],
+   "participants": [
+    {
+     "actorRecordId": "urdaibai:agents:78",
+     "role": "Platform reported as an information channel and as convening opposition",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:guggenheim-mobilisation:e4"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:mobilised-residents",
+     "role": "Residents and collectives reported as mobilising; no individuals modelled",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:guggenheim-mobilisation:e1",
+      "urdaibai:episode:guggenheim-mobilisation:e2",
+      "urdaibai:episode:guggenheim-mobilisation:e3"
+     ]
+    }
+   ],
+   "demand": "Respond to a museum extension perceived as imposed and poorly explained.",
+   "reportedResponse": "Interviewees describe a mobilisation across the whole comarca, demonstrations and new collectives opposing the extension. Others describe it as politicised and centred on parties.",
+   "reportedContinuity": "The final report states that the Basque institutions decided not to continue with the extension and that opposing organisations saw their concerns recognised. The sources do not establish that the mobilisation caused the decision.",
+   "place": "Busturialdea–Urdaibai",
+   "time": {
+    "date": null,
+    "precision": "period",
+    "label": "2024–2025 (period of the listening interviews)"
+   },
+   "episodeKind": "reported_practice",
+   "evidenceLevel": "B",
+   "functionalReadings": [
+    {
+     "functionId": "mobilisation",
+     "interpretation": "People and collectives across several towns were activated around one shared demand. Knowledge circulation through the platform is mentioned but not coded: the sources describe information flow, not recombination.",
+     "status": "analyst_interpretation",
+     "strength": "strong",
+     "evidenceIds": [
+      "urdaibai:episode:guggenheim-mobilisation:e1",
+      "urdaibai:episode:guggenheim-mobilisation:e2",
+      "urdaibai:episode:guggenheim-mobilisation:e3"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "id": "urdaibai:episode:guggenheim-mobilisation:e1",
+     "documentId": "urdaibai:document:ktool-listening",
+     "sourceType": "api_excerpt",
+     "quote": "Guggenheim proiektuaren inguruan mobilizazio bat sortu da Urdaibai osoaren baitan, ez udalerri bakoitzeko.",
+     "language": "eu",
+     "englishSummary": "A mobilisation formed around the Guggenheim project across the whole of Urdaibai, not town by town.",
+     "sourceRecordId": "urdaibai:informations:1615"
+    },
+    {
+     "id": "urdaibai:episode:guggenheim-mobilisation:e2",
+     "documentId": "urdaibai:document:ktool-listening",
+     "sourceType": "api_excerpt",
+     "quote": "Manifestazioak daude",
+     "language": "eu",
+     "englishSummary": "The interviewee mentions demonstrations (and doubts they will change the outcome).",
+     "sourceRecordId": "urdaibai:informations:44"
+    },
+    {
+     "id": "urdaibai:episode:guggenheim-mobilisation:e3",
+     "documentId": "urdaibai:document:ktool-listening",
+     "sourceType": "api_excerpt",
+     "quote": "Y eso ha dado pie a que se creen colectivos contrarios al Guggenheim",
+     "language": "es",
+     "englishSummary": "Another interviewee links the formation of opposing collectives to the lack of explanation.",
+     "sourceRecordId": "urdaibai:informations:1446"
+    },
+    {
+     "id": "urdaibai:episode:guggenheim-mobilisation:e4",
+     "documentId": "urdaibai:document:ktool-listening",
+     "sourceType": "api_excerpt",
+     "quote": "nosotros nos enteramos por la plataforma [Stop Urdaibai]",
+     "language": "es",
+     "englishSummary": "The platform is described as the information channel for this interviewee.",
+     "sourceRecordId": "urdaibai:informations:1432",
+     "evidenceRole": "context"
+    },
+    {
+     "id": "urdaibai:episode:guggenheim-mobilisation:e5",
+     "documentId": "urdaibai:document:ktool-listening",
+     "sourceType": "api_excerpt",
+     "quote": "Mobilizazioa oso politizatuta dago, alderdi politikoetan zentratuta",
+     "language": "eu",
+     "englishSummary": "A dissenting reading: the mobilisation is seen as highly politicised and centred on parties.",
+     "sourceRecordId": "urdaibai:informations:1617",
+     "evidenceRole": "counter"
+    },
+    {
+     "id": "urdaibai:episode:guggenheim-mobilisation:e6",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "Una vez tomada la decisión de no continuar con el proyecto de ampliación del museo, aquellas organizaciones que se oponían al mismo, han visto reconocidas sus preocupaciones y sugerencias",
+     "language": "es",
+     "englishSummary": "The report states that after the decision not to continue, opposing organisations saw their concerns recognised. It does not attribute the decision to the mobilisation.",
+     "pdfPage": 45
+    }
+   ]
+  },
+  {
+   "id": "urdaibai:episode:murueta-sensemaking",
+   "title": "Contrasting five profiles in Murueta",
+   "initiativeIds": [
+    "urdaibai:context:alc-listening-process"
+   ],
+   "series": "ALC / AC4 contrast sessions",
+   "participants": [
+    {
+     "actorRecordId": "urdaibai:agents:47",
+     "role": "Mayor attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:murueta-sensemaking:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:pnv",
+     "role": "A party official (burukide) attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:murueta-sensemaking:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:78",
+     "role": "Platform representative attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:murueta-sensemaking:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:murueta-session-others",
+     "role": "Others listed without organisation: a public-school parents’ association member, a student, a former mayor",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:murueta-sensemaking:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:alc",
+     "role": "Organiser of the contrast sessions; no individual attendee inferred",
+     "status": "organiser_context",
+     "evidenceIds": [
+      "urdaibai:episode:murueta-sensemaking:e2"
+     ]
+    }
+   ],
+   "demand": "Test whether the narrative profiles cover the range of territorial perspectives.",
+   "reportedResponse": "A contrast session in which institutional, party, platform and resident participants discussed the narrative profiles.",
+   "reportedContinuity": "Part of a series of seven contrast sessions. The report does not record a profile revision specific to this session.",
+   "place": "Murueta",
+   "time": {
+    "date": "2025-06-18",
+    "precision": "day",
+    "basis": "session_date"
+   },
+   "episodeKind": "bounded_action",
+   "evidenceLevel": "A",
+   "functionalReadings": [
+    {
+     "functionId": "mobilisation",
+     "interpretation": "The session convened participants from different institutions, parties, the opposition platform and residents around one shared question.",
+     "status": "analyst_interpretation",
+     "strength": "strong",
+     "evidenceIds": [
+      "urdaibai:episode:murueta-sensemaking:e1"
+     ]
+    },
+    {
+     "functionId": "knowledge",
+     "interpretation": "Different perspectives were set against shared analytical profiles. Plausible recombination; unlike Ibarrangelu, no specific revision is reported.",
+     "status": "analyst_interpretation",
+     "strength": "plausible",
+     "evidenceIds": [
+      "urdaibai:episode:murueta-sensemaking:e2"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "id": "urdaibai:episode:murueta-sensemaking:e1",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "Además del alcalde, participaron un burukide del PNV, un representante de Behargintza, un representante de la plataforma GUS, un miembro de la asociación de padres de un Colegio público, un alumno y un ex alcalde, entre otros",
+     "language": "es",
+     "englishSummary": "The report lists the mayor, a PNV official, a Behargintza representative, the GUS platform, a parents’ association member, a student and a former mayor. Behargintza is not mapped to a specific agent record because the branch is not stated.",
+     "pdfPage": 66
+    },
+    {
+     "id": "urdaibai:episode:murueta-sensemaking:e2",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "En esta segunda sesión ya se contrastaron cinco perfiles",
+     "language": "es",
+     "englishSummary": "Five profiles were contrasted, including the profile created after Ibarrangelu.",
+     "pdfPage": 66
+    }
+   ]
+  },
+  {
+   "id": "urdaibai:episode:gernika-sensemaking",
+   "title": "Contrasting five profiles in Gernika",
+   "initiativeIds": [
+    "urdaibai:context:alc-listening-process"
+   ],
+   "series": "ALC / AC4 contrast sessions",
+   "participants": [
+    {
+     "actorRecordId": "urdaibai:agents:59",
+     "role": "The Diputado General of Bizkaia attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:gernika-sensemaking:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:25",
+     "role": "Mayor of Errigoiti attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:gernika-sensemaking:e2"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:112",
+     "role": "Representative attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:gernika-sensemaking:e2"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:78",
+     "role": "Two platform representatives attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:gernika-sensemaking:e2"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:ernai",
+     "role": "A member attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:gernika-sensemaking:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:gernika-session-others",
+     "role": "Others listed without organisation: a retired person, a student, a music-school worker, a publishing worker",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:gernika-sensemaking:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:alc",
+     "role": "Organiser of the contrast sessions; no individual attendee inferred",
+     "status": "organiser_context",
+     "evidenceIds": [
+      "urdaibai:episode:gernika-sensemaking:e4"
+     ]
+    }
+   ],
+   "demand": "Test whether the narrative profiles cover the range of territorial perspectives.",
+   "reportedResponse": "A contrast session in which institutional, party, platform and resident participants discussed the narrative profiles.",
+   "reportedContinuity": "Part of a series of seven contrast sessions. The report does not record a profile revision specific to this session.",
+   "place": "Gernika-Lumo",
+   "time": {
+    "date": "2025-07-02",
+    "precision": "day",
+    "basis": "session_date"
+   },
+   "episodeKind": "bounded_action",
+   "evidenceLevel": "A",
+   "functionalReadings": [
+    {
+     "functionId": "mobilisation",
+     "interpretation": "The session convened participants from different institutions, parties, the opposition platform and residents around one shared question.",
+     "status": "analyst_interpretation",
+     "strength": "strong",
+     "evidenceIds": [
+      "urdaibai:episode:gernika-sensemaking:e1"
+     ]
+    },
+    {
+     "functionId": "knowledge",
+     "interpretation": "Different perspectives were set against shared analytical profiles. Plausible recombination; unlike Ibarrangelu, no specific revision is reported.",
+     "status": "analyst_interpretation",
+     "strength": "plausible",
+     "evidenceIds": [
+      "urdaibai:episode:gernika-sensemaking:e4"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "id": "urdaibai:episode:gernika-sensemaking:e1",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "En esta ocasión contamos con la participación del Diputado General de Bizkaia",
+     "language": "es",
+     "englishSummary": "The head of the provincial government attended.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:gernika-sensemaking:e2",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "el alcalde de Errigoiti, un representante de Gernika Gogoratuz, dos representantes de la plataforma GUS",
+     "language": "es",
+     "englishSummary": "Further named participants.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:gernika-sensemaking:e3",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "un miembro de Ernai",
+     "language": "es",
+     "englishSummary": "A member of the youth organisation Ernai attended.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:gernika-sensemaking:e4",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "Se contrastaron los cinco perfiles",
+     "language": "es",
+     "englishSummary": "The five profiles were contrasted.",
+     "pdfPage": 67
+    }
+   ]
+  },
+  {
+   "id": "urdaibai:episode:elantxobe-sensemaking",
+   "title": "Contrasting five profiles in Elantxobe",
+   "initiativeIds": [
+    "urdaibai:context:alc-listening-process"
+   ],
+   "series": "ALC / AC4 contrast sessions",
+   "participants": [
+    {
+     "actorRecordId": "urdaibai:agents:23",
+     "role": "Mayor attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:elantxobe-sensemaking:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:pnv",
+     "role": "A party member of parliament attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:elantxobe-sensemaking:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:78",
+     "role": "Platform representative attended",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:elantxobe-sensemaking:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:elantxobe-session-others",
+     "role": "Others listed without organisation: a participatory-process expert, two summer residents, an environment technician, a university worker, a social educator, a school director, an operator, a student",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:elantxobe-sensemaking:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:alc",
+     "role": "Organiser of the contrast sessions; no individual attendee inferred",
+     "status": "organiser_context",
+     "evidenceIds": [
+      "urdaibai:episode:elantxobe-sensemaking:e2"
+     ]
+    }
+   ],
+   "demand": "Test whether the narrative profiles cover the range of territorial perspectives.",
+   "reportedResponse": "A contrast session in which institutional, party, platform and resident participants discussed the narrative profiles.",
+   "reportedContinuity": "Part of a series of seven contrast sessions. The report does not record a profile revision specific to this session.",
+   "place": "Elantxobe",
+   "time": {
+    "date": "2025-07-07",
+    "precision": "day",
+    "basis": "session_date"
+   },
+   "episodeKind": "bounded_action",
+   "evidenceLevel": "A",
+   "functionalReadings": [
+    {
+     "functionId": "mobilisation",
+     "interpretation": "The session convened participants from different institutions, parties, the opposition platform and residents around one shared question.",
+     "status": "analyst_interpretation",
+     "strength": "strong",
+     "evidenceIds": [
+      "urdaibai:episode:elantxobe-sensemaking:e1"
+     ]
+    },
+    {
+     "functionId": "knowledge",
+     "interpretation": "Different perspectives were set against shared analytical profiles. Plausible recombination; unlike Ibarrangelu, no specific revision is reported.",
+     "status": "analyst_interpretation",
+     "strength": "plausible",
+     "evidenceIds": [
+      "urdaibai:episode:elantxobe-sensemaking:e2"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "id": "urdaibai:episode:elantxobe-sensemaking:e1",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "Además del alcalde de Elantxobe, participaron un parlamentario del PNV, un representante de la plataforma GUS",
+     "language": "es",
+     "englishSummary": "The report lists the mayor, a PNV parliamentarian and the GUS platform among 13 participants.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:elantxobe-sensemaking:e2",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "Se contrastaron los cinco perfiles",
+     "language": "es",
+     "englishSummary": "The five profiles were contrasted.",
+     "pdfPage": 67
+    }
+   ]
+  },
+  {
+   "id": "urdaibai:episode:missing-voices",
+   "title": "Reaching the voices that were missing",
+   "initiativeIds": [
+    "urdaibai:context:alc-listening-process"
+   ],
+   "participants": [
+    {
+     "actorRecordId": "urdaibai:context:alc",
+     "role": "Organiser; identified the gap and arranged the sessions",
+     "status": "organiser_context",
+     "evidenceIds": [
+      "urdaibai:episode:missing-voices:e1",
+      "urdaibai:episode:missing-voices:e2"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:youth-session-students",
+     "role": "Twelve students of a local school (unnamed)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:missing-voices:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:migrant-session-participants",
+     "role": "Four migrant participants (unnamed)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:missing-voices:e4"
+     ]
+    }
+   ],
+   "demand": "Include perspectives that the first rounds of listening had not reached: young people and migrants.",
+   "reportedResponse": "After the July preliminary report, ALC/AC4 held a session with students of a local school and a session with migrant participants (both on 24 November), and used ethnographic techniques to reach other voices.",
+   "reportedContinuity": "Youth participation reached 13.49%. The report recommends specific mechanisms for migrant participation in the future debate; these are recommendations, not completed actions.",
+   "place": "Gernika-Lumo and a local school",
+   "time": {
+    "date": "2025-11-24",
+    "precision": "day",
+    "basis": "session_date"
+   },
+   "episodeKind": "bounded_action",
+   "evidenceLevel": "A",
+   "functionalReadings": [
+    {
+     "functionId": "mobilisation",
+     "interpretation": "Effort was directed at people who had not taken part, rather than at those already mobilised.",
+     "status": "analyst_interpretation",
+     "strength": "strong",
+     "evidenceIds": [
+      "urdaibai:episode:missing-voices:e1",
+      "urdaibai:episode:missing-voices:e3",
+      "urdaibai:episode:missing-voices:e4",
+      "urdaibai:episode:missing-voices:e6"
+     ]
+    },
+    {
+     "functionId": "knowledge",
+     "interpretation": "New perspectives changed the collective reading: migrant participants’ arguments for the extension surprised others.",
+     "status": "analyst_interpretation",
+     "strength": "strong",
+     "evidenceIds": [
+      "urdaibai:episode:missing-voices:e2",
+      "urdaibai:episode:missing-voices:e5"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "id": "urdaibai:episode:missing-voices:e1",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "tuvimos dificultades para llegar a este grupo y recoger sus opiniones",
+     "language": "es",
+     "englishSummary": "The preliminary report found young people under-represented.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:missing-voices:e2",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "la necesidad de profundizar en las perspectivas de personas migradas, jóvenes y mayores",
+     "language": "es",
+     "englishSummary": "The contrast sessions concluded that migrant, young and older people’s perspectives needed more depth.",
+     "pdfPage": 66
+    },
+    {
+     "id": "urdaibai:episode:missing-voices:e3",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "Participaron 12 estudiantes y en la sesión se contrastaron y validaron los cinco perfiles",
+     "language": "es",
+     "englishSummary": "A session with 12 students of a local school contrasted and validated the five profiles.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:missing-voices:e4",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "Celebrada en Gernika, el 24 de Noviembre. Participaron 4 personas",
+     "language": "es",
+     "englishSummary": "A session with migrant participants in Gernika had four participants.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:missing-voices:e5",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "muchas narrativas expresaban su sorpresa al conocer los argumentos favorables a la ampliación que existe entre las personas migradas",
+     "language": "es",
+     "englishSummary": "Learning migrant participants’ arguments changed how others read the debate.",
+     "pdfPage": 43
+    },
+    {
+     "id": "urdaibai:episode:missing-voices:e6",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "hemos llegado al 13,49% de participantes de entre 18 y 29 años",
+     "language": "es",
+     "englishSummary": "Youth participation rose to 13.49% after additional effort.",
+     "pdfPage": 41
+    }
+   ]
+  },
+  {
+   "id": "urdaibai:episode:returning-results",
+   "title": "Returning the results and asking again",
+   "initiativeIds": [
+    "urdaibai:context:alc-listening-process"
+   ],
+   "participants": [
+    {
+     "actorRecordId": "urdaibai:context:alc",
+     "role": "Published the preliminary results and ran the second iteration",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:returning-results:e1",
+      "urdaibai:episode:returning-results:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:second-iteration-interviewees",
+     "role": "53 people interviewed a second time (unnamed)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:returning-results:e3",
+      "urdaibai:episode:returning-results:e4"
+     ]
+    }
+   ],
+   "demand": "Make the process credible to sceptical sectors and check whether the conclusions held.",
+   "reportedResponse": "The first results were published in July 2025 including the criticisms; 53 participants were interviewed again, told the conclusions and asked what was missing or had changed.",
+   "reportedContinuity": "The report states that distrust did not disappear but more narratives considered the process independent enough to take part.",
+   "place": "Busturialdea–Urdaibai",
+   "time": {
+    "date": "2025-07-01",
+    "precision": "period",
+    "label": "July–December 2025"
+   },
+   "episodeKind": "bounded_action",
+   "evidenceLevel": "A",
+   "functionalReadings": [
+    {
+     "functionId": "knowledge",
+     "interpretation": "A feedback loop: results returned to participants and revised with them.",
+     "status": "analyst_interpretation",
+     "strength": "strong",
+     "evidenceIds": [
+      "urdaibai:episode:returning-results:e1",
+      "urdaibai:episode:returning-results:e3"
+     ]
+    },
+    {
+     "functionId": "mobilisation",
+     "interpretation": "The report links the publication to more participation from mobilised sectors.",
+     "status": "analyst_interpretation",
+     "strength": "plausible",
+     "evidenceIds": [
+      "urdaibai:episode:returning-results:e2"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "id": "urdaibai:episode:returning-results:e1",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "generó un cambio significativo en la percepción sobre la integridad metodológica del proceso",
+     "language": "es",
+     "englishSummary": "Publishing the first results, including environmental, symbolic and legal criticism, changed how the process was perceived.",
+     "pdfPage": 42
+    },
+    {
+     "id": "urdaibai:episode:returning-results:e2",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "el proceso de escucha ha recogido más narrativas que consideran que se está operando con criterios de independencia suficientes",
+     "language": "es",
+     "englishSummary": "Afterwards more narratives regarded the process as sufficiently independent.",
+     "pdfPage": 42
+    },
+    {
+     "id": "urdaibai:episode:returning-results:e3",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "Les hemos informado de las conclusiones y perfiles que presentamos en julio y les hemos preguntado si echan en falta algo",
+     "language": "es",
+     "englishSummary": "Second-iteration interviewees were told the July conclusions and asked what was missing.",
+     "pdfPage": 66
+    },
+    {
+     "id": "urdaibai:episode:returning-results:e4",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "Han participado 949 personas, de las cuales 53 personas han realizado también la entrevista de segunda iteración",
+     "language": "es",
+     "englishSummary": "53 of the 949 participants took part in a second interview.",
+     "pdfPage": 63
+    }
+   ]
+  },
+  {
+   "id": "urdaibai:episode:international-seminar",
+   "title": "International seminar on just transition in Urdaibai",
+   "initiativeIds": [
+    "urdaibai:context:alc-listening-process"
+   ],
+   "participants": [
+    {
+     "actorRecordId": "urdaibai:context:alc",
+     "role": "Co-organiser",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:ac4",
+     "role": "Co-organiser",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:hiroshima",
+     "role": "Collaborating university",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e2"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:international-experts",
+     "role": "International experts in planning, architecture, art and tourism (not modelled as individuals)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:19",
+     "role": "Municipal representatives (Busturia)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:10",
+     "role": "Municipal representatives (Ajangiz)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:49",
+     "role": "Municipal representatives (Muxika)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:53",
+     "role": "Municipal representatives (Sukarrieta)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:16",
+     "role": "Municipal representatives (Gautegiz Arteaga)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:23",
+     "role": "Municipal representatives (Elantxobe)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:35",
+     "role": "Municipal representatives (Ibarrangelu)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:29",
+     "role": "Municipal representatives (Ereño)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e3"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:112",
+     "role": "Local organisation",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e4"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:202",
+     "role": "Local organisation",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e4"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:agents:195",
+     "role": "Local organisation",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e4"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:arantzazu-lab",
+     "role": "Local organisation",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e4"
+     ]
+    }
+   ],
+   "demand": "Contrast the listening findings with international experience on governance, participation and the rights of nature.",
+   "reportedResponse": "A two-day seminar with international experts, representatives of eight municipalities and local organisations, who shared their views on the conditions for a just transition.",
+   "reportedContinuity": "The report says the findings were contrasted and enriched at the seminar; no subsequent joint action is reported.",
+   "place": "Urdaibai Ekoetxea",
+   "time": {
+    "date": "2025-12-01",
+    "precision": "day",
+    "basis": "event_date",
+    "label": "1–2 December 2025"
+   },
+   "episodeKind": "bounded_action",
+   "evidenceLevel": "A",
+   "functionalReadings": [
+    {
+     "functionId": "knowledge",
+     "interpretation": "International, municipal and local perspectives were set side by side on the same territorial question.",
+     "status": "analyst_interpretation",
+     "strength": "plausible",
+     "evidenceIds": [
+      "urdaibai:episode:international-seminar:e1",
+      "urdaibai:episode:international-seminar:e3",
+      "urdaibai:episode:international-seminar:e4"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "id": "urdaibai:episode:international-seminar:e1",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "El 1 y 2 de diciembre en Urdaibai Ekoetxea ALC y AC4 Columbia organizaron un seminario internacional",
+     "language": "es",
+     "englishSummary": "ALC and AC4 Columbia organised an international seminar at Urdaibai Ekoetxea.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:international-seminar:e2",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "en colaboración con la Universidad de Hiroshima",
+     "language": "es",
+     "englishSummary": "In collaboration with Hiroshima University.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:international-seminar:e3",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "Asimismo, participaron representantes de los municipios de Busturia, Ajangiz, Muxika, Sukarrieta, Gautegiz Arteaga, Elantxobe, Ibarrangelu y Ereño",
+     "language": "es",
+     "englishSummary": "Representatives of eight municipalities took part.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:international-seminar:e4",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "agentes locales como Gernika Gogoratuz, BC3, IHOBE, Arantzazu Lab, entre otros",
+     "language": "es",
+     "englishSummary": "Local organisations took part.",
+     "pdfPage": 67
+    },
+    {
+     "id": "urdaibai:episode:international-seminar:e5",
+     "documentId": "urdaibai:document:alc-final",
+     "sourceType": "report_excerpt",
+     "quote": "En total, 51 personas",
+     "language": "es",
+     "englishSummary": "51 people in total.",
+     "pdfPage": 67
+    }
+   ]
+  },
+  {
+   "id": "urdaibai:episode:water-consortium",
+   "title": "Joining the Bilbao Bizkaia water consortium",
+   "initiativeIds": [],
+   "participants": [
+    {
+     "actorRecordId": "urdaibai:agents:198",
+     "role": "Consortium that the comarca’s water systems joined",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:water-consortium:e1"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:consortium-municipalities",
+     "role": "Municipal water systems of the comarca (unnamed)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:water-consortium:e1",
+      "urdaibai:episode:water-consortium:e2"
+     ]
+    }
+   ],
+   "demand": "Secure water supply in a comarca with a structural water deficit.",
+   "reportedResponse": "Interviewees report that local water systems joined the Bilbao Bizkaia Water Consortium, which supplies water when local reserves are not enough. One describes the move as compulsory, after the Busturialdea consortium was dissolved.",
+   "reportedContinuity": "A further connection to the Zadorra network via Mungia is mentioned as a project. No date is given.",
+   "place": "Busturialdea–Urdaibai",
+   "time": {
+    "date": null,
+    "precision": "unknown"
+   },
+   "episodeKind": "institutional_response",
+   "evidenceLevel": "B",
+   "functionalReadings": [
+    {
+     "functionId": "coordination",
+     "interpretation": "Water infrastructure is aligned across municipalities under one consortium. Read as coordination only: a shared resource provided by an institution is not coded as mutual support (decision of 9 Nov 2026).",
+     "status": "analyst_interpretation",
+     "strength": "plausible",
+     "evidenceIds": [
+      "urdaibai:episode:water-consortium:e1",
+      "urdaibai:episode:water-consortium:e2"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "id": "urdaibai:episode:water-consortium:e1",
+     "documentId": "urdaibai:document:ktool-listening",
+     "sourceType": "api_excerpt",
+     "quote": "Ur Partzuergoan sartu ginen azkenean Bilbao Bizkaia Ur Partzuergoan",
+     "language": "eu",
+     "englishSummary": "The interviewee reports that the comarca finally joined the Bilbao Bizkaia Water Consortium; supply is guaranteed when local reserves run short.",
+     "sourceRecordId": "urdaibai:informations:24"
+    },
+    {
+     "id": "urdaibai:episode:water-consortium:e2",
+     "documentId": "urdaibai:document:ktool-listening",
+     "sourceType": "api_excerpt",
+     "quote": "Sartu gaituzte derrigorrez Bilboko Kontsortzioan",
+     "language": "eu",
+     "englishSummary": "Another interviewee says the Busturialdea consortium was dissolved and part of the town was put into the Bilbao consortium compulsorily.",
+     "sourceRecordId": "urdaibai:informations:748",
+     "evidenceRole": "counter"
+    }
+   ],
+   "notes": "Source 0088 is treated as one voice with 0145 (identical excerpts)."
+  },
+  {
+   "id": "urdaibai:episode:access-quotas",
+   "title": "Regulating visitor access at Gaztelugatxe",
+   "initiativeIds": [],
+   "participants": [
+    {
+     "actorRecordId": "urdaibai:agents:59",
+     "role": "Reported as controlling access (Oma forest; \"the same\" at Gaztelugatxe)",
+     "status": "reported_participation",
+     "evidenceIds": [
+      "urdaibai:episode:access-quotas:e2"
+     ]
+    },
+    {
+     "actorRecordId": "urdaibai:context:gaztelugatxe-local-users",
+     "role": "Residents whose everyday use is affected (unnamed)",
+     "status": "inferred_role_context",
+     "evidenceIds": [
+      "urdaibai:episode:access-quotas:e3"
+     ]
+    }
+   ],
+   "demand": "Limit visitor pressure on a heavily visited natural and cultural site.",
+   "reportedResponse": "Interviewees describe a calculated carrying capacity, a daily quota and gates at Gaztelugatxe, and similar control at Oma forest by the Provincial Council.",
+   "reportedContinuity": "One interviewee presents the control as a model; another says it excluded local use. The same site hosts the residents’ 30 December gathering.",
+   "place": "San Juan de Gaztelugatxe",
+   "time": {
+    "date": null,
+    "precision": "unknown"
+   },
+   "episodeKind": "institutional_response",
+   "evidenceLevel": "B",
+   "functionalReadings": [
+    {
+     "functionId": "coordination",
+     "interpretation": "Access by many visitors is aligned through a quota and controlled entry. The capacity calculation is mentioned but not coded as knowledge recombination.",
+     "status": "analyst_interpretation",
+     "strength": "plausible",
+     "evidenceIds": [
+      "urdaibai:episode:access-quotas:e1",
+      "urdaibai:episode:access-quotas:e2"
+     ]
+    }
+   ],
+   "evidence": [
+    {
+     "id": "urdaibai:episode:access-quotas:e1",
+     "documentId": "urdaibai:document:ktool-listening",
+     "sourceType": "api_excerpt",
+     "quote": "Dago kopuru bat, kuota bat, egunean sartu ahal dena, eta gero ateak jarri dira.",
+     "language": "eu",
+     "englishSummary": "At Gaztelugatxe a carrying capacity was calculated, a daily quota set and gates installed.",
+     "sourceRecordId": "urdaibai:informations:822"
+    },
+    {
+     "id": "urdaibai:episode:access-quotas:e2",
+     "documentId": "urdaibai:document:ktool-listening",
+     "sourceType": "api_excerpt",
+     "quote": "Gaur egun Aldundiak kontrolatuta dauka eta ez dago masifikaziorik. Gaztelugatxe berdina",
+     "language": "eu",
+     "englishSummary": "The Provincial Council controls access to Oma forest; the interviewee says the same applies to Gaztelugatxe.",
+     "sourceRecordId": "urdaibai:informations:982"
+    },
+    {
+     "id": "urdaibai:episode:access-quotas:e3",
+     "documentId": "urdaibai:document:ktool-listening",
+     "sourceType": "api_excerpt",
+     "quote": "como ocurrió en Gaztelugatxe",
+     "language": "es",
+     "englishSummary": "A third interviewee says controlled tourist access excluded local everyday use.",
+     "sourceRecordId": "urdaibai:informations:970",
+     "evidenceRole": "counter"
+    }
+   ]
+  }
+ ],
+ "readingAdditions": [
+  {
+   "episodeId": "urdaibai:episode:gus-talk",
+   "reading": {
+    "functionId": "knowledge",
+    "interpretation": "The talk gave information and let views be compared. Plausible recombination; the source does not show a jointly revised view.",
+    "status": "analyst_interpretation",
+    "strength": "plausible",
+    "evidenceIds": [
+     "urdaibai:episode:gus-talk:e1"
+    ]
+   }
+  }
+ ],
+ "contextActors": [
+  {
+   "id": "urdaibai:context:pnv",
+   "name": "EAJ-PNV (political party)",
+   "kind": "context_record",
+   "actorType": "organisation",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:ernai",
+   "name": "Ernai (youth organisation)",
+   "kind": "context_record",
+   "actorType": "organisation",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:ac4",
+   "name": "AC4 – Columbia Climate School",
+   "kind": "context_record",
+   "actorType": "organisation",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:hiroshima",
+   "name": "Hiroshima University (NERPS)",
+   "kind": "context_record",
+   "actorType": "organisation",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:arantzazu-lab",
+   "name": "Arantzazu Lab",
+   "kind": "context_record",
+   "actorType": "organisation",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:mobilised-residents",
+   "name": "Residents and collectives mobilised over the museum extension",
+   "kind": "role_group",
+   "actorType": "role_group",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:murueta-session-others",
+   "name": "Other attendees · Murueta session",
+   "kind": "role_group",
+   "actorType": "role_group",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:gernika-session-others",
+   "name": "Other attendees · Gernika session",
+   "kind": "role_group",
+   "actorType": "role_group",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:elantxobe-session-others",
+   "name": "Other attendees · Elantxobe session",
+   "kind": "role_group",
+   "actorType": "role_group",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:youth-session-students",
+   "name": "Students · youth session",
+   "kind": "role_group",
+   "actorType": "role_group",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:migrant-session-participants",
+   "name": "Participants · migrant session",
+   "kind": "role_group",
+   "actorType": "role_group",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:second-iteration-interviewees",
+   "name": "Second-iteration interviewees",
+   "kind": "role_group",
+   "actorType": "role_group",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:international-experts",
+   "name": "International experts · seminar",
+   "kind": "role_group",
+   "actorType": "role_group",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:consortium-municipalities",
+   "name": "Municipal water systems of the comarca",
+   "kind": "role_group",
+   "actorType": "role_group",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  },
+  {
+   "id": "urdaibai:context:gaztelugatxe-local-users",
+   "name": "Local users of Gaztelugatxe",
+   "kind": "role_group",
+   "actorType": "role_group",
+   "provenance": "Named in the ALC final report or the listening corpus; added in this build"
+  }
+ ]
+}
